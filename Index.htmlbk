@@ -1,0 +1,32 @@
+<!DOCTYPE html> 
+<html>
+<head>
+<meta charset="utf-8">
+<title>Clash Of Clans Admin</title>
+	<!-- Start css3menu.com HEAD section -->
+
+	<link rel="stylesheet" href="Index_files/css3menu0/style.css" type="text/css" /><style type="text/css">._css3m{display:none}</style>
+
+	<!-- End css3menu.com HEAD section -->
+
+</head> 
+<body> 
+<div data-role="header">
+	<h1>Clash Of Clans Admin</h1>
+</div>
+
+<div data-role="page" id="page">
+	<!-- Start css3menu.com BODY section -->
+
+<input type="checkbox" id="css3menu-switcher" class="c3m-switch-input">
+<ul id="css3menu0" class="topmenu">
+
+	<li class="switch"><label onclick="" for="css3menu-switcher"></label></li>
+	<li class="topfirst"><a href="#" style="height:15px;line-height:15px;">Initialize War</a></li>
+	<li class="toplast"><a href="ManagePlayers.php" style="height:15px;line-height:15px;">Manage Players</a></li>
+</ul>
+
+<!-- End css3menu.com BODY section -->
+</div>
+</body>
+</html>
