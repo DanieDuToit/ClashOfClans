@@ -15,7 +15,7 @@
         <select name="selectedWarID" id="selectedWarID">
             <?php
                 $dbBaseClass = new BaseDB();
-                $sql = "SELECT WarID ,CONVERT(VARCHAR(30), [Date], 13) AS dateString FROM War WHERE Active = 1";
+                $sql = "SELECT WarID ,CONVERT(VARCHAR(30), [Date], 13) AS dateString FROM War";
                 $records = $dbBaseClass->dbQuery($sql);
                 while ($record = sqlsrv_fetch_array($records, SQLSRV_FETCH_BOTH)) {
                     echo "<option value={$record['WarID']}>War ID:{$record['WarID']} => {$record['dateString']}</option>";
