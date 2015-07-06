@@ -4,7 +4,7 @@
     include_once("BaseClasses/BaseDB.class.php");
     include_once("BaseClasses/Database.class.php");
 
-//    $WarID = $_SESSION["selectedWarID"];
+    $WarID = $_SESSION["selectedWarID"];
     $AttackID = $_REQUEST['id'];
 
     $db = new BaseDB();
