@@ -7,7 +7,6 @@
 
     if (isset($gcmRegID) && isset($pushMessage)) {
 
-
         $registatoin_ids = array($gcmRegID);
         $message         = array("data" => $pushMessage);
 
