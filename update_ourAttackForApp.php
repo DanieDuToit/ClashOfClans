@@ -57,6 +57,9 @@
             'errorMsg' => 'An error occured: ' . dbGetErrorMsg()
         ]);
     } else {
+
+        // If this is the first attack
+
         $sqlIdentity = "select @@identity as EntityId";
         $resultID = sqlsrv_query(Database::getInstance()->getConnection(), $sqlIdentity);
         $rowIdentity = sqlsrv_fetch_array($resultID);

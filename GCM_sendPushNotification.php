@@ -23,8 +23,6 @@
     $registatoin_ids = array();
     $i               = 0;
     while ($record = sqlsrv_fetch_array($result, SQLSRV_FETCH_BOTH)) {
-        $s                     = $message;
-        $s1                    = $record['gcm_regid'];
         $registatoin_ids[$i++] = $record['gcm_regid'];
     }
     $db->Free($result);

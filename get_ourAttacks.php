@@ -2,6 +2,8 @@
     session_start();
     $selectedWarID = $_SESSION["selectedWarID"];
 
+    //
+
     include_once("BaseClasses/BaseDB.class.php");
     include_once("BaseClasses/Database.class.php");
 
