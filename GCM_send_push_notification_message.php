@@ -10,8 +10,7 @@
         $registatoin_ids = array($gcmRegID);
         $message         = array("data" => $pushMessage);
 
-        $result = send_push_notification($registatoin_ids, $message);
-
-        echo $result;
+        // TODO Remove
+        //        send_push_notification($registatoin_ids, $message);
     }
 ?>

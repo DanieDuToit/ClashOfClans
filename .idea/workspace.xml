@@ -2,467 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="454a5460-608f-40a8-84c5-d9fd22344a87" name="Default" comment="6 Jul 2015">
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\.idea\.name" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\.idea\ClashOfClans.iml" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\.idea\dataSources.ids" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\.idea\dataSources.local.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\.idea\dataSources.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\.idea\dictionaries\dutoitd1.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\.idea\encodings.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\.idea\inspectionProfiles\Project_Default.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\.idea\inspectionProfiles\profiles_settings.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\.idea\jsLibraryMappings.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\.idea\jsLinters\jshint.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\.idea\misc.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\.idea\modules.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\.idea\php.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\.idea\scopes\scope_settings.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\.idea\sqldialects.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\.idea\vagrant.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\.idea\vcs.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\.idea\workspace.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\BaseClasses\BaseDB.class.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\BaseClasses\Database.class.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\BaseClasses\Functions.inc.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\BaseClasses\GetParticipants.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\BaseClasses\Settings.inc.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\Index.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\Index.htmlbk" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\Index_files\css3menu0\arrow.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\Index_files\css3menu0\arrowsub.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\Index_files\css3menu0\mainbk.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\Index_files\css3menu0\style.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\Index_files\css3menu1\arrow.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\Index_files\css3menu1\arrowsub.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\Index_files\css3menu1\mainbk.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\Index_files\css3menu1\style.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\InitializeWar.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\ManageOurAttack.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\ManagePlayers.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\ManageTheirAttack.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\ManageWars.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\OurContestantsSetup.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\SelectWar.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\TheirContestantsSetup.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\WarSetup.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\counter.txt" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\css\demo.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\destroy_OurParticipant.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\destroy_TheirParticipant.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\destroy_ourAttack.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\destroy_player.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\destroy_theirAttack.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\destroy_war.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\easyloader.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\getActiveWars.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\get_AttacksForPlayer.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\get_IsAttackingRank.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\get_NextBestAttack.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\get_NumberOfParticipants.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\get_StarsToBeWin.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\get_StarsWon.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\get_TheirContestants.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\get_UsVsThemStats.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\get_WarStats.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\get_orderOfAttacks.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\get_ourAttacks.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\get_participantsForWar.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\get_participantsForWarFoApp.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\get_players.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\get_theirAttacks.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\get_wars.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\jquery-mobile\images\ajax-loader.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\jquery-mobile\images\icons-18-black.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\jquery-mobile\images\icons-18-white.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\jquery-mobile\images\icons-36-black.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\jquery-mobile\images\icons-36-white.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\jquery-mobile\jquery-1.8.3.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\jquery-mobile\jquery.mobile-1.3.0.min.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\jquery-mobile\jquery.mobile-1.3.0.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\locale\easyui-lang-af.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\locale\easyui-lang-am.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\locale\easyui-lang-ar.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\locale\easyui-lang-bg.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\locale\easyui-lang-ca.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\locale\easyui-lang-cs.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\locale\easyui-lang-cz.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\locale\easyui-lang-da.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\locale\easyui-lang-de.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\locale\easyui-lang-el.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\locale\easyui-lang-en.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\locale\easyui-lang-es.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\locale\easyui-lang-fr.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\locale\easyui-lang-it.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\locale\easyui-lang-jp.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\locale\easyui-lang-nl.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\locale\easyui-lang-pl.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\locale\easyui-lang-pt_BR.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\locale\easyui-lang-ru.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\locale\easyui-lang-sv_SE.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\locale\easyui-lang-tr.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\locale\easyui-lang-zh_CN.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\locale\easyui-lang-zh_TW.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\plugins\jquery.accordion.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\plugins\jquery.calendar.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\plugins\jquery.combo.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\plugins\jquery.combobox.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\plugins\jquery.combogrid.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\plugins\jquery.combotree.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\plugins\jquery.datagrid.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\plugins\jquery.datalist.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\plugins\jquery.datebox.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\plugins\jquery.datetimebox.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\plugins\jquery.datetimespinner.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\plugins\jquery.dialog.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\plugins\jquery.draggable.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\plugins\jquery.droppable.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\plugins\jquery.filebox.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\plugins\jquery.form.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\plugins\jquery.layout.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\plugins\jquery.linkbutton.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\plugins\jquery.menu.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\plugins\jquery.menubutton.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\plugins\jquery.messager.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\plugins\jquery.mobile.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\plugins\jquery.numberbox.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\plugins\jquery.numberspinner.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\plugins\jquery.pagination.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\plugins\jquery.panel.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\plugins\jquery.parser.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\plugins\jquery.progressbar.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\plugins\jquery.propertygrid.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\plugins\jquery.resizable.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\plugins\jquery.searchbox.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\plugins\jquery.slider.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\plugins\jquery.spinner.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\plugins\jquery.splitbutton.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\plugins\jquery.tabs.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\plugins\jquery.textbox.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\plugins\jquery.timespinner.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\plugins\jquery.tooltip.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\plugins\jquery.tree.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\plugins\jquery.treegrid.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\plugins\jquery.validatebox.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\plugins\jquery.window.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\removeAttackLock.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\save_TheirContestant.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\save_contestant.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\save_ourAttack.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\save_player.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\save_theirAttack.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\save_war.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\set_RankAttacking.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\src\datagrid-editors.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\src\easyloader.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\src\jquery.accordion.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\src\jquery.calendar.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\src\jquery.combobox.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\src\jquery.datebox.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\src\jquery.draggable.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\src\jquery.droppable.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\src\jquery.easyui.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\src\jquery.easyui.mobile.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\src\jquery.edatagrid.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\src\jquery.form.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\src\jquery.linkbutton.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\src\jquery.menu.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\src\jquery.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\src\jquery.parser.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\src\jquery.progressbar.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\src\jquery.propertygrid.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\src\jquery.resizable.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\src\jquery.slider.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\src\jquery.tabs.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\src\jquery.window.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\testFuncs.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\themes\black\accordion.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\themes\black\calendar.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\themes\black\combo.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\themes\black\combobox.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\themes\black\datagrid.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\themes\black\datalist.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\themes\black\datebox.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\themes\black\dialog.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\themes\black\easyui.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\themes\black\filebox.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\themes\black\images\accordion_arrows.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\themes\black\images\blank.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\themes\black\images\calendar_arrows.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\themes\black\images\combo_arrow.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\themes\black\images\datagrid_icons.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\themes\black\images\datebox_arrow.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\themes\black\images\layout_arrows.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\themes\black\images\linkbutton_bg.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\themes\black\images\loading.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\themes\black\images\menu_arrows.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\themes\black\images\messager_icons.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\themes\black\images\pagination_icons.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\themes\black\images\panel_tools.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\themes\black\images\searchbox_button.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\themes\black\images\slider_handle.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\themes\black\images\spinner_arrows.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\themes\black\images\tabs_icons.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\themes\black\images\tree_icons.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\themes\black\images\validatebox_warning.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\themes\black\layout.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\themes\black\linkbutton.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\themes\black\menu.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\themes\black\menubutton.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\themes\black\messager.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\themes\black\numberbox.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\themes\black\pagination.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\themes\black\panel.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\themes\black\progressbar.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\themes\black\propertygrid.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\themes\black\searchbox.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\themes\black\slider.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\themes\black\spinner.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\themes\black\splitbutton.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\themes\black\tabs.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\themes\black\textbox.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\themes\black\tooltip.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\themes\black\tree.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\themes\black\validatebox.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\themes\black\window.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\themes\bootstrap\accordion.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\themes\bootstrap\calendar.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\themes\bootstrap\combo.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\themes\bootstrap\combobox.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\themes\bootstrap\datagrid.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\themes\bootstrap\datalist.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\themes\bootstrap\datebox.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\themes\bootstrap\dialog.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\themes\bootstrap\easyui.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\themes\bootstrap\filebox.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\themes\bootstrap\images\accordion_arrows.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\themes\bootstrap\images\blank.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\themes\bootstrap\images\calendar_arrows.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\themes\bootstrap\images\combo_arrow.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\themes\bootstrap\images\datagrid_icons.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\themes\bootstrap\images\datebox_arrow.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\themes\bootstrap\images\layout_arrows.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\themes\bootstrap\images\linkbutton_bg.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\themes\bootstrap\images\loading.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\themes\bootstrap\images\menu_arrows.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\themes\bootstrap\images\messager_icons.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\themes\bootstrap\images\pagination_icons.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\themes\bootstrap\images\panel_tools.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\themes\bootstrap\images\searchbox_button.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\themes\bootstrap\images\slider_handle.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\themes\bootstrap\images\spinner_arrows.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\themes\bootstrap\images\tabs_icons.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\themes\bootstrap\images\tree_icons.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\themes\bootstrap\images\validatebox_warning.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\themes\bootstrap\layout.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\themes\bootstrap\linkbutton.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\themes\bootstrap\menu.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\themes\bootstrap\menubutton.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\themes\bootstrap\messager.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\themes\bootstrap\numberbox.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\themes\bootstrap\pagination.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\themes\bootstrap\panel.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\themes\bootstrap\progressbar.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\themes\bootstrap\propertygrid.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\themes\bootstrap\searchbox.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\themes\bootstrap\slider.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\themes\bootstrap\spinner.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\themes\bootstrap\splitbutton.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\themes\bootstrap\tabs.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\themes\bootstrap\textbox.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\themes\bootstrap\tooltip.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\themes\bootstrap\tree.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\themes\bootstrap\validatebox.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\themes\bootstrap\window.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\themes\color.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\themes\default\accordion.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\themes\default\calendar.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\themes\default\combo.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\themes\default\combobox.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\themes\default\datagrid.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\themes\default\datalist.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\themes\default\datebox.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\themes\default\dialog.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\themes\default\easyui.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\themes\default\filebox.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\themes\default\images\accordion_arrows.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\themes\default\images\blank.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\themes\default\images\calendar_arrows.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\themes\default\images\combo_arrow.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\themes\default\images\datagrid_icons.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\themes\default\images\datebox_arrow.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\themes\default\images\layout_arrows.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\themes\default\images\linkbutton_bg.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\themes\default\images\loading.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\themes\default\images\menu_arrows.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\themes\default\images\messager_icons.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\themes\default\images\pagination_icons.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\themes\default\images\panel_tools.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\themes\default\images\searchbox_button.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\themes\default\images\slider_handle.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\themes\default\images\spinner_arrows.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\themes\default\images\tabs_icons.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\themes\default\images\tree_icons.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\themes\default\images\validatebox_warning.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\themes\default\layout.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\themes\default\linkbutton.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\themes\default\menu.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\themes\default\menubutton.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\themes\default\messager.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\themes\default\numberbox.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\themes\default\pagination.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\themes\default\panel.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\themes\default\progressbar.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\themes\default\propertygrid.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\themes\default\searchbox.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\themes\default\slider.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\themes\default\spinner.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\themes\default\splitbutton.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\themes\default\tabs.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\themes\default\textbox.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\themes\default\tooltip.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\themes\default\tree.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\themes\default\validatebox.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\themes\default\window.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\themes\gray\accordion.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\themes\gray\calendar.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\themes\gray\combo.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\themes\gray\combobox.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\themes\gray\datagrid.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\themes\gray\datalist.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\themes\gray\datebox.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\themes\gray\dialog.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\themes\gray\easyui.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\themes\gray\filebox.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\themes\gray\images\accordion_arrows.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\themes\gray\images\blank.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\themes\gray\images\calendar_arrows.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\themes\gray\images\combo_arrow.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\themes\gray\images\datagrid_icons.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\themes\gray\images\datebox_arrow.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\themes\gray\images\layout_arrows.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\themes\gray\images\linkbutton_bg.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\themes\gray\images\loading.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\themes\gray\images\menu_arrows.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\themes\gray\images\messager_icons.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\themes\gray\images\pagination_icons.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\themes\gray\images\panel_tools.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\themes\gray\images\searchbox_button.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\themes\gray\images\slider_handle.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\themes\gray\images\spinner_arrows.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\themes\gray\images\tabs_icons.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\themes\gray\images\tree_icons.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\themes\gray\images\validatebox_warning.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\themes\gray\layout.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\themes\gray\linkbutton.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\themes\gray\menu.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\themes\gray\menubutton.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\themes\gray\messager.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\themes\gray\numberbox.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\themes\gray\pagination.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\themes\gray\panel.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\themes\gray\progressbar.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\themes\gray\propertygrid.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\themes\gray\searchbox.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\themes\gray\slider.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\themes\gray\spinner.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\themes\gray\splitbutton.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\themes\gray\tabs.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\themes\gray\textbox.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\themes\gray\tooltip.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\themes\gray\tree.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\themes\gray\validatebox.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\themes\gray\window.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\themes\icon.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\themes\icons\back.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\themes\icons\blank.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\themes\icons\cancel.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\themes\icons\clear.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\themes\icons\cut.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\themes\icons\edit_add.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\themes\icons\edit_remove.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\themes\icons\filesave.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\themes\icons\filter.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\themes\icons\help.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\themes\icons\large_chart.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\themes\icons\large_clipart.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\themes\icons\large_picture.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\themes\icons\large_shapes.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\themes\icons\large_smartart.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\themes\icons\lock.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\themes\icons\man.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\themes\icons\mini_add.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\themes\icons\mini_edit.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\themes\icons\mini_refresh.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\themes\icons\more.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\themes\icons\no.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\themes\icons\ok.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\themes\icons\pencil.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\themes\icons\print.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\themes\icons\redo.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\themes\icons\reload.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\themes\icons\search.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\themes\icons\sum.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\themes\icons\tip.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\themes\icons\undo.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\themes\metro\accordion.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\themes\metro\calendar.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\themes\metro\combo.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\themes\metro\combobox.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\themes\metro\datagrid.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\themes\metro\datalist.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\themes\metro\datebox.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\themes\metro\dialog.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\themes\metro\easyui.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\themes\metro\filebox.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\themes\metro\images\accordion_arrows.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\themes\metro\images\blank.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\themes\metro\images\calendar_arrows.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\themes\metro\images\combo_arrow.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\themes\metro\images\datagrid_icons.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\themes\metro\images\datebox_arrow.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\themes\metro\images\layout_arrows.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\themes\metro\images\linkbutton_bg.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\themes\metro\images\loading.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\themes\metro\images\menu_arrows.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\themes\metro\images\messager_icons.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\themes\metro\images\pagination_icons.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\themes\metro\images\panel_tools.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\themes\metro\images\searchbox_button.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\themes\metro\images\slider_handle.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\themes\metro\images\spinner_arrows.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\themes\metro\images\tabs_icons.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\themes\metro\images\tree_icons.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\themes\metro\images\validatebox_warning.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\themes\metro\layout.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\themes\metro\linkbutton.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\themes\metro\menu.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\themes\metro\menubutton.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\themes\metro\messager.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\themes\metro\numberbox.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\themes\metro\pagination.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\themes\metro\panel.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\themes\metro\progressbar.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\themes\metro\propertygrid.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\themes\metro\searchbox.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\themes\metro\slider.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\themes\metro\spinner.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\themes\metro\splitbutton.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\themes\metro\tabs.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\themes\metro\textbox.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\themes\metro\tooltip.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\themes\metro\tree.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\themes\metro\validatebox.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\themes\metro\window.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\themes\mobile.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\update_OurParticipant.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\update_TheirContestant.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\update_ourAttack.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\update_ourAttackForApp.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\update_player.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\update_theirAttack.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\update_war.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\ClashOfClans\web.config" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MessageToNextAttackers.bat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BaseClasses/Functions.inc.php" afterPath="$PROJECT_DIR$/BaseClasses/Functions.inc.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GCM_SendNotificationToNextAttacker.php" afterPath="$PROJECT_DIR$/GCM_SendNotificationToNextAttacker.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GCM_sendGlobalNotification.php" afterPath="$PROJECT_DIR$/GCM_sendGlobalNotification.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GCM_sendPushNotification.php" afterPath="$PROJECT_DIR$/GCM_sendPushNotification.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GCM_send_push_notification_message.php" afterPath="$PROJECT_DIR$/GCM_send_push_notification_message.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BaseClasses/Settings.inc.php" afterPath="$PROJECT_DIR$/BaseClasses/Settings.inc.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/set_RankAttacking.php" afterPath="$PROJECT_DIR$/set_RankAttacking.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/update_ourAttackForApp.php" afterPath="$PROJECT_DIR$/update_ourAttackForApp.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ClashOfClans.iws" />
@@ -537,66 +85,34 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="GCM_sendGlobalNotification.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/GCM_sendGlobalNotification.php">
+      <file leaf-file-name="update_ourAttackForApp.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/update_ourAttackForApp.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="425" max-vertical-offset="527">
-              <caret line="25" column="2" selection-start-line="25" selection-start-column="2" selection-end-line="25" selection-end-column="2" />
+            <state vertical-scroll-proportion="-15.038462" vertical-offset="986" max-vertical-offset="1887">
+              <caret line="81" column="16" selection-start-line="81" selection-start-column="16" selection-end-line="82" selection-end-column="41" />
               <folding>
-                <marker date="1436166918947" expanded="true" signature="139:185" placeholder="SELECT gcm_r..gcm_users..." />
+                <marker date="1436256706998" expanded="true" signature="542:678" placeholder="SELECT Their..TheirParticipant..." />
+                <marker date="1436256706998" expanded="true" signature="1020:1188" placeholder="SELECT COUNT..Attack..." />
+                <marker date="1436256706998" expanded="true" signature="1574:1810" placeholder="UPDATE Attac..." />
+                <marker date="1436256706998" expanded="true" signature="2475:3177" placeholder="SELECT TOP(1..OurParticipantID..." />
+                <marker date="1436256706998" expanded="true" signature="2530:3131" placeholder="SELECT TOP (..GameName..." />
+                <marker date="1436256706998" expanded="true" signature="2601:2799" placeholder="SELECT GameN..View_WarProgress..." />
+                <marker date="1436256706998" expanded="true" signature="2850:3042" placeholder="SELECT GameN..View_WarProgress..." />
+                <marker date="1436256706998" expanded="true" signature="3677:3761" placeholder="UPDATE OurPa..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="destroy_ourAttack.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/destroy_ourAttack.php">
+      <file leaf-file-name="Functions.inc.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/BaseClasses/Functions.inc.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="527">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="get_participantsForWarFoApp.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/get_participantsForWarFoApp.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="480" max-vertical-offset="1037">
-              <caret line="39" column="0" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="get_wars.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/get_wars.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="340" max-vertical-offset="442">
-              <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.35310733" vertical-offset="368" max-vertical-offset="952">
+              <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
               <folding>
-                <marker date="1436166919056" expanded="true" signature="167:263" placeholder="SELECT WarID..War..." />
+                <marker date="1436256706986" expanded="true" signature="532:618" placeholder="SELECT WarID..War..." />
+                <marker date="1436256706986" expanded="true" signature="1035:1299" placeholder="SELECT p.Gam..OurParticipant..." />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Settings.inc.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/BaseClasses/Settings.inc.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.51952463" vertical-offset="0" max-vertical-offset="589">
-              <caret line="18" column="34" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="34" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="save_GCMInfo.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/save_GCMInfo.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="35" max-vertical-offset="1003">
-              <caret line="39" column="68" selection-start-line="39" selection-start-column="68" selection-end-line="39" selection-end-column="68" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -604,39 +120,35 @@
       <file leaf-file-name="get_orderOfAttacks.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/get_orderOfAttacks.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="85" max-vertical-offset="476">
-              <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+            <state vertical-scroll-proportion="-5.230769" vertical-offset="0" max-vertical-offset="476">
+              <caret line="8" column="62" selection-start-line="8" selection-start-column="62" selection-end-line="8" selection-end-column="62" />
+              <folding>
+                <marker date="1436166949248" expanded="true" signature="224:400" placeholder="SELECT GameN..View_WarProgress..." />
+                <marker date="1436166949248" expanded="true" signature="224:652" placeholder="SELECT GameN..." />
+                <marker date="1436166949248" expanded="true" signature="425:597" placeholder="SELECT GameN..View_WarProgress..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GCM_SendNotificationToNextAttacker.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/GCM_SendNotificationToNextAttacker.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-2.6153846" vertical-offset="0" max-vertical-offset="187">
+              <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="save_theirAttack.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/save_theirAttack.php">
+      <file leaf-file-name="get_AttacksForPlayer.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/get_AttacksForPlayer.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="629">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="save_player.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/save_player.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="187" max-vertical-offset="493">
-              <caret line="16" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="get_OurPlayers.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/get_OurPlayers.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="340" max-vertical-offset="459">
-              <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-              <folding />
+            <state vertical-scroll-proportion="-2.6153846" vertical-offset="0" max-vertical-offset="663">
+              <caret line="4" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+              <folding>
+                <marker date="1436166949243" expanded="true" signature="259:499" placeholder="select ISNUL..View_OurAttackedOpponents..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -652,15 +164,13 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
+    <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/GCM_sendPushNotification.php" />
         <option value="$PROJECT_DIR$/BaseClasses/Settings.inc.php" />
+        <option value="$PROJECT_DIR$/GCM_SendNotificationToNextAttacker.php" />
       </list>
     </option>
-  </component>
-  <component name="JsGulpfileManager">
-    <detection-done>true</detection-done>
   </component>
   <component name="PhpServers">
     <servers>
@@ -674,9 +184,9 @@
   <component name="PhpXdebugProxy" host="localhost" port="80" />
   <component name="ProjectFrameBounds">
     <option name="x" value="-4" />
-    <option name="y" value="-4" />
-    <option name="width" value="1374" />
-    <option name="height" value="732" />
+    <option name="y" value="-2" />
+    <option name="width" value="1372" />
+    <option name="height" value="729" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -704,6 +214,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -724,7 +235,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -763,29 +273,28 @@
     <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
       <method />
     </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
     <configuration default="true" type="com.intellij.database.run.ConsoleRunConfigurationType" factoryName="Query Language Console">
       <option name="VM_PARAMETERS" value="" />
       <option name="USER_CFG_CLASS" />
       <option name="CONTEXT_PROVIDER" />
       <method />
     </configuration>
-    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
-      <method />
-    </configuration>
     <configuration default="true" type="PhpBehatConfigurationType" factoryName="Behat">
       <BehatRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server" server_id="2c901c96-d6c8-4fa9-9d72-93959ac16991" server_name="Localhost">
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
       <node-options />
       <gulpfile />
       <tasks />
-      <arguments />
-      <pass-parent-envs>true</pass-parent-envs>
+      <pass-parent-env-vars>false</pass-parent-env-vars>
       <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
       <method />
     </configuration>
     <list size="2">
@@ -833,47 +342,47 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-4" y="-4" width="1374" height="732" extended-state="6" />
+    <frame x="-4" y="-2" width="1372" height="729" extended-state="0" />
     <editor active="false" />
     <layout>
-      <window_info id="Script Monkey" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Regex Tester" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32879046" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.37966102" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24169184" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="PHP-CGI Server" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.29301533" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.48534203" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32875264" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.1510574" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23036253" sideWeight="0.5" order="5" side_tool="false" content_ui="combo" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.48534203" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32875264" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23373677" sideWeight="0.5" order="5" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3809524" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="PHP-CGI Server" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32930514" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.292517" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Script Monkey" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Regex Tester" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
     </layout>
     <layout-to-restore>
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3809524" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.37966102" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24169184" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="PHP-CGI Server" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32930514" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.292517" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.29152542" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.48534203" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32875264" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Script Monkey" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
@@ -882,10 +391,10 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.1510574" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23535676" sideWeight="0.5" order="5" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23338369" sideWeight="0.5" order="5" side_tool="false" content_ui="combo" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
     </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -916,39 +425,48 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/save_ourAttack.php</url>
-          <line>8</line>
-          <option name="timeStamp" value="149" />
+          <url>file://$PROJECT_DIR$/BaseClasses/Functions.inc.php</url>
+          <line>29</line>
+          <option name="timeStamp" value="185" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/get_StarsWon.php</url>
-          <line>7</line>
-          <option name="timeStamp" value="160" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/get_wars.php</url>
-          <line>6</line>
-          <option name="timeStamp" value="172" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/get_TheirContestants.php</url>
-          <line>8</line>
-          <option name="timeStamp" value="177" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/save_GCMInfo.php</url>
-          <line>4</line>
-          <option name="timeStamp" value="178" />
+          <url>file://$PROJECT_DIR$/update_ourAttackForApp.php</url>
+          <line>64</line>
+          <option name="timeStamp" value="186" />
         </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="179" />
+      <option name="time" value="188" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/save_theirAttack.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="629">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/save_player.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="187" max-vertical-offset="493">
+          <caret line="16" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/get_OurPlayers.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="340" max-vertical-offset="459">
+          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/removeAttackLock.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="114" max-vertical-offset="612">
@@ -991,14 +509,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/save_ourAttack.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="698" max-vertical-offset="1139">
-          <caret line="59" column="11" selection-start-line="59" selection-start-column="11" selection-end-line="59" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/update_ourAttack.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="119" max-vertical-offset="578">
@@ -1038,20 +548,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.33333334" vertical-offset="0" max-vertical-offset="748">
           <caret line="11" column="15" selection-start-line="11" selection-start-column="15" selection-end-line="11" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/update_ourAttackForApp.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.1551095" vertical-offset="170" max-vertical-offset="1241">
-          <caret line="15" column="54" selection-start-line="15" selection-start-column="54" selection-end-line="15" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/get_NextBestAttack.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3246528" vertical-offset="0" max-vertical-offset="576">
-          <caret line="11" column="42" selection-start-line="11" selection-start-column="42" selection-end-line="11" selection-end-column="42" />
         </state>
       </provider>
     </entry>
@@ -1120,13 +616,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/get_AttacksForPlayer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.0" vertical-offset="323" max-vertical-offset="663">
-          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/get_ourAttacks.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="142" max-vertical-offset="731">
@@ -1155,14 +644,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/get_participantsForWarFoApp.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="480" max-vertical-offset="1037">
-          <caret line="39" column="0" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/GCM_Loader.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="187">
@@ -1170,25 +651,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/BaseClasses/Functions.inc.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="561">
-          <caret line="9" column="26" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/save_theirAttack.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="629">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/get_orderOfAttacks.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="85" max-vertical-offset="476">
-          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1238,20 +704,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/GCM_send_push_notification_message.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.31515813" vertical-offset="0" max-vertical-offset="917">
-          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/get_wars.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="340" max-vertical-offset="442">
           <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-          <folding>
-            <marker date="1436166919056" expanded="true" signature="167:263" placeholder="SELECT WarID..War..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1259,17 +716,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.38716355" vertical-offset="0" max-vertical-offset="952">
           <caret line="11" column="21" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GCM_sendGlobalNotification.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="425" max-vertical-offset="527">
-          <caret line="25" column="2" selection-start-line="25" selection-start-column="2" selection-end-line="25" selection-end-column="2" />
-          <folding>
-            <marker date="1436166918947" expanded="true" signature="139:185" placeholder="SELECT gcm_r..gcm_users..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1281,13 +727,134 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/GCM_send_push_notification_message.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-10.461538" vertical-offset="0" max-vertical-offset="374">
+          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GCM_sendPushNotification.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-9.884615" vertical-offset="66" max-vertical-offset="646">
+          <caret line="19" column="33" selection-start-line="19" selection-start-column="33" selection-end-line="19" selection-end-column="33" />
+          <folding>
+            <marker date="1436256778422" expanded="true" signature="-1:-1" placeholder="SELECT gcm_r..gcm_users..." />
+            <marker date="1436256778422" expanded="true" signature="-1:-1" placeholder="SELECT gcm_r..gcm_users..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/BaseClasses/Settings.inc.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.51952463" vertical-offset="0" max-vertical-offset="589">
-          <caret line="18" column="34" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="34" />
+        <state vertical-scroll-proportion="-11.769231" vertical-offset="0" max-vertical-offset="493">
+          <caret line="18" column="36" selection-start-line="18" selection-start-column="36" selection-end-line="18" selection-end-column="36" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/get_participantsForWarFoApp.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-10.038462" vertical-offset="487" max-vertical-offset="1037">
+          <caret line="44" column="46" selection-start-line="44" selection-start-column="46" selection-end-line="44" selection-end-column="46" />
+          <folding>
+            <marker date="1436166949250" expanded="true" signature="-1:-1" placeholder="SELECT TOP(1..War..." />
+            <marker date="1436166949250" expanded="true" signature="-1:-1" placeholder="UPDATE Visit..." />
+            <marker date="1436166949250" expanded="true" signature="-1:-1" placeholder="SELECT dbo.P..Player..." />
+            <marker date="1436166949250" expanded="true" signature="-1:-1" placeholder="SELECT [dbo]..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GCM_sendGlobalNotification.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.6153846" vertical-offset="0" max-vertical-offset="510">
+          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding>
+            <marker date="1436256706991" expanded="true" signature="-1:-1" placeholder="SELECT gcm_r..gcm_users..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/save_ourAttack.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.8963636" vertical-offset="442" max-vertical-offset="1139">
+          <caret line="55" column="39" selection-start-line="55" selection-start-column="39" selection-end-line="55" selection-end-column="40" />
+          <folding>
+            <marker date="1436166949295" expanded="true" signature="-1:-1" placeholder="SELECT Their..TheirParticipant..." />
+            <marker date="1436166949295" expanded="true" signature="-1:-1" placeholder="SELECT COUNT..Attack..." />
+            <marker date="1436166949295" expanded="true" signature="-1:-1" placeholder="insert into ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/update_ourAttackForApp.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-15.038462" vertical-offset="986" max-vertical-offset="1887">
+          <caret line="81" column="16" selection-start-line="81" selection-start-column="16" selection-end-line="82" selection-end-column="41" />
+          <folding>
+            <marker date="1436256706998" expanded="true" signature="542:678" placeholder="SELECT Their..TheirParticipant..." />
+            <marker date="1436256706998" expanded="true" signature="1020:1188" placeholder="SELECT COUNT..Attack..." />
+            <marker date="1436256706998" expanded="true" signature="1574:1810" placeholder="UPDATE Attac..." />
+            <marker date="1436256706998" expanded="true" signature="2475:3177" placeholder="SELECT TOP(1..OurParticipantID..." />
+            <marker date="1436256706998" expanded="true" signature="2530:3131" placeholder="SELECT TOP (..GameName..." />
+            <marker date="1436256706998" expanded="true" signature="2601:2799" placeholder="SELECT GameN..View_WarProgress..." />
+            <marker date="1436256706998" expanded="true" signature="2850:3042" placeholder="SELECT GameN..View_WarProgress..." />
+            <marker date="1436256706998" expanded="true" signature="3677:3761" placeholder="UPDATE OurPa..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/get_NextBestAttack.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.044973545" vertical-offset="68" max-vertical-offset="476">
+          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/get_orderOfAttacks.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.230769" vertical-offset="0" max-vertical-offset="476">
+          <caret line="8" column="62" selection-start-line="8" selection-start-column="62" selection-end-line="8" selection-end-column="62" />
+          <folding>
+            <marker date="1436166949248" expanded="true" signature="224:400" placeholder="SELECT GameN..View_WarProgress..." />
+            <marker date="1436166949248" expanded="true" signature="224:652" placeholder="SELECT GameN..." />
+            <marker date="1436166949248" expanded="true" signature="425:597" placeholder="SELECT GameN..View_WarProgress..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/get_AttacksForPlayer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.6153846" vertical-offset="0" max-vertical-offset="663">
+          <caret line="4" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding>
+            <marker date="1436166949243" expanded="true" signature="259:499" placeholder="select ISNUL..View_OurAttackedOpponents..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GCM_SendNotificationToNextAttacker.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.6153846" vertical-offset="0" max-vertical-offset="187">
+          <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BaseClasses/Functions.inc.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.35310733" vertical-offset="368" max-vertical-offset="952">
+          <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+          <folding>
+            <marker date="1436256706986" expanded="true" signature="532:618" placeholder="SELECT WarID..War..." />
+            <marker date="1436256706986" expanded="true" signature="1035:1299" placeholder="SELECT p.Gam..OurParticipant..." />
+          </folding>
         </state>
       </provider>
     </entry>
   </component>
 </project>
+

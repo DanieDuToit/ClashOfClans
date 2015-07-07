@@ -1,17 +1,11 @@
 <?php
-    session_start();
-
     include_once("BaseClasses/BaseDB.class.php");
     include_once("BaseClasses/Database.class.php");
 
     $db = new BaseDB();
 
-    $WarID = 0;
-    if (isset($_REQUEST["selectedWarID"])) {
-        $WarID = $_REQUEST["selectedWarID"];
-    } else {
-        $WarID = $_SESSION["selectedWarID"];
-    }
+    $WarID = $_REQUEST["selectedWarID"];
+
     $OurAttack = 1;
     $OurParticipantID = $_REQUEST['ourparticipantid'];
     $TheirParticipantID = 0;
@@ -42,6 +36,7 @@
         echo json_encode([
             'errorMsg' => 'There is already 2 attacks for this Rank'
         ]);
+        goto DONE;
     }
 
     $sql = "
@@ -56,15 +51,56 @@
         echo json_encode([
             'errorMsg' => 'An error occured: ' . dbGetErrorMsg()
         ]);
+        goto DONE;
     } else {
 
         // If this is the first attack
+        //        $sqlIdentity = "select @@identity as EntityId";
+        //        $resultID    = sqlsrv_query(Database::getInstance()->getConnection(), $sqlIdentity);
+        //        $rowIdentity = sqlsrv_fetch_array($resultID);
+        //        $AttackID    = $rowIdentity["EntityId"];
+        // SET the "NextAttacker" flag (whether it is set or not)
 
-        $sqlIdentity = "select @@identity as EntityId";
-        $resultID = sqlsrv_query(Database::getInstance()->getConnection(), $sqlIdentity);
-        $rowIdentity = sqlsrv_fetch_array($resultID);
-        $AttackID = $rowIdentity["EntityId"];
-        echo json_encode([
-            'success' => 'success'
-        ]);
+        // Get the next player that must attack after this one
+        $sql    = "
+            SELECT TOP(1) B.OurParticipantID FROM
+                (SELECT TOP (2) A.OurParticipantID, A.OurRank FROM
+                    (SELECT  GameName, OurRank, TimeOfAttack, OurParticipantID, 1 AS Priority
+                        FROM [COC].[dbo].[View_WarProgress] WHERE WarID = 1018 AND TimeOfAttack IS NULL AND [FirstAttack] = 1
+                    UNION
+                        SELECT  GameName, OurRank, TimeOfAttack, OurParticipantID, 0 AS Priority
+                    FROM [COC].[dbo].[View_WarProgress] WHERE WarID = 1018 AND TimeOfAttack IS NULL AND FirstAttack = 0
+                    ) AS A  ORDER BY A.Priority DESC, A.timeofattack ASC, A.OurRank DESC
+                ) AS B ORDER BY B.OurRank ASC
+        ";
+        $result = $db->dbQuery($sql);
+        if ($result == false) {
+            echo json_encode([
+                'errorMsg' => 'An error occured: ' . dbGetErrorMsg()
+            ]);
+            goto DONE;
+        } else {
+            $record           = sqlsrv_fetch_array($result, SQLSRV_FETCH_BOTH);
+            $OurParticipantID = $record['OurParticipantID'];
+            // Set the NextAttacker flag for the player so that he can be prompt to attack
+            $sql    = "
+                UPDATE OurParticipant SET NextAttacker = 1
+                WHERE OurParticipantID = $OurParticipantID
+            ";
+            $result = $db->dbQuery($sql);
+            if (!$result) {
+                $data['result'][0] =
+                    array(
+                        'success' => 0,
+                        'error'   => dbGetErrorMsg()
+                    );
+            } else {
+                array(
+                    'success' => 1,
+                    'error'   => ''
+                );
+                SendNotificationToNextAttacker();
+            }
+        }
     }
+    DONE:
