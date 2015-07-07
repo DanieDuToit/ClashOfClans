@@ -28,6 +28,5 @@
     $db->Free($result);
     $db->close();
     $msg    = array("data" => $message);
-    // TODO Remove
-    //    $result = send_push_notification($registatoin_ids, $msg);
+    $result = send_push_notification($registatoin_ids, $msg);
 ?>

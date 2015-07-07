@@ -2,7 +2,8 @@
     include_once("BaseDB.class.php");
     include_once("Database.class.php");
 
-    class WarStruct {
+    class WarStruct
+    {
         public $id;
         public $dateString;
     }
@@ -15,9 +16,10 @@
         return $retVal;
     }//dbGetErrorMsg()
 
-    function getWarLineForSelect() {
+    function getWarLineForSelect()
+    {
         $dbBaseClass = new BaseDB();
-        $sql = "SELECT WarID ,CONVERT(VARCHAR(30), [Date], 13) AS dateString FROM War WHERE Active = 1";
+        $sql         = "SELECT WarID ,CONVERT(VARCHAR(30), [Date], 13) AS dateString FROM War WHERE Active = 1";
         $records     = $dbBaseClass->dbQuery($sql);
         $returnString = "";
         while ($record = sqlsrv_fetch_array($records, SQLSRV_FETCH_BOTH)) {
@@ -43,8 +45,7 @@
         while ($record = sqlsrv_fetch_array($result, SQLSRV_FETCH_BOTH)) {
             $registatoin_ids[0] = $record['gcm_regid'];
             $msg                = array("data" => "cal" . $record['GameName'] . " it is your turn to attack!");
-            // TODO Remove
-            //            send_push_notification($registatoin_ids, $msg);
+            send_push_notification($registatoin_ids, $msg);
         }
         $db->Free($result);
         $db->close();
