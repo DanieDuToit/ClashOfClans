@@ -1,6 +1,5 @@
 <?php
-    include_once("BaseClasses/BaseDB.class.php");
-    include_once("BaseClasses/Database.class.php");
+    require_once('GCM_Loader.php');
 
     $db = new BaseDB();
 
@@ -66,10 +65,10 @@
             SELECT TOP(1) B.OurParticipantID FROM
                 (SELECT TOP (2) A.OurParticipantID, A.OurRank FROM
                     (SELECT  GameName, OurRank, TimeOfAttack, OurParticipantID, 1 AS Priority
-                        FROM [COC].[dbo].[View_WarProgress] WHERE WarID = 1018 AND TimeOfAttack IS NULL AND [FirstAttack] = 1
+                        FROM [COC].[dbo].[View_WarProgress] WHERE WarID = $WarID AND TimeOfAttack IS NULL AND [FirstAttack] = 1
                     UNION
                         SELECT  GameName, OurRank, TimeOfAttack, OurParticipantID, 0 AS Priority
-                    FROM [COC].[dbo].[View_WarProgress] WHERE WarID = 1018 AND TimeOfAttack IS NULL AND FirstAttack = 0
+                    FROM [COC].[dbo].[View_WarProgress] WHERE WarID = $WarID AND TimeOfAttack IS NULL AND FirstAttack = 0
                     ) AS A  ORDER BY A.Priority DESC, A.timeofattack ASC, A.OurRank DESC
                 ) AS B ORDER BY B.OurRank ASC
         ";

@@ -1,5 +1,5 @@
 <?php
-    include_once("GCM_Loader.php");
+    include_once("GCM_Functions.php");
     //Storing new user and returns user details
 
     function storePlayer($name, $email, $gcm_regid) {

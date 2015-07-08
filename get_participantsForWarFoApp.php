@@ -1,8 +1,7 @@
 <?php
     $noWarID = false;
     $selectedWarID = 0;
-    include_once("BaseClasses/BaseDB.class.php");
-    include_once("BaseClasses/Database.class.php");
+    require_once('GCM_Loader.php');
 
     if ($_REQUEST['selectedWarID'] = 0) {
         $noWarID = true;

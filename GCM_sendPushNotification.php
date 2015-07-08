@@ -1,5 +1,6 @@
 <?php
     require_once('GCM_Loader.php');
+
     $db = new BaseDB();
 
     $message  = $_REQUEST["message"];
@@ -28,5 +29,5 @@
     $db->Free($result);
     $db->close();
     $msg    = array("data" => $message);
-    $result = send_push_notification($registatoin_ids, $msg);
+    send_push_notification($registatoin_ids, $msg);
 ?>
