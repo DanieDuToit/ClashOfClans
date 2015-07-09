@@ -70,7 +70,7 @@
                         SELECT  GameName, OurRank, TimeOfAttack, OurParticipantID, 0 AS Priority
                     FROM [COC].[dbo].[View_WarProgress] WHERE WarID = $WarID AND TimeOfAttack IS NULL AND FirstAttack = 0
                     ) AS A  ORDER BY A.Priority DESC, A.timeofattack ASC, A.OurRank DESC
-                ) AS B ORDER BY B.OurRank ASC
+                ) AS B ORDER BY B.OurRank DESC
         ";
         $result = $db->dbQuery($sql);
         if ($result == false) {

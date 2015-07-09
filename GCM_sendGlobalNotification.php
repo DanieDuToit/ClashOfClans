@@ -6,7 +6,7 @@
 
     $i      = 0;
     $sql = "
-      SELECT gcm_regid, game_name FROM dbo.gcm_users
+      SELECT gcm_regid, game_name FROM dbo.gcm_users WHERE Active = 1
     ";
 
     $result = $db->dbQuery($sql);
