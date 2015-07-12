@@ -1,8 +1,16 @@
 <?php
     session_start();
+
+    if (!isset($_SESSION["selectedClanID"])) {
+        header("Location: Index.php?err=You must sign in first.");
+        die();
+    }
+
+    include_once("menu.php");
     include_once("BaseClasses/BaseDB.class.php");
     include_once("BaseClasses/Database.class.php");
 
+    $clanID = $_SESSION["selectedClanID"];
     $selectedWarID = $_REQUEST['selectedWarID'];
     // Set session variables
     $_SESSION["selectedWarID"] = "$selectedWarID";

@@ -1,24 +1,23 @@
 <?php
     session_start();
+
+    if (!isset($_SESSION["selectedClanID"])) {
+        header("Location: Index.php?err=You must sign in first.");
+        die();
+    }
+
+    include_once("menu.php");
     include_once("BaseClasses/BaseDB.class.php");
     include_once("BaseClasses/Database.class.php");
 
+    $clanID = $_SESSION["selectedClanID"];
     $selectedWarID = $_REQUEST['selectedWarID'];
     // Set session variables
     $_SESSION["selectedWarID"] = "$selectedWarID";
 ?>
-<!DOCTYPE html>
 <html>
-<head>
-    <meta charset="UTF-8">
-    <title>Dragonheart's C.O.C. Their Attack admin</title>
-    <link rel="stylesheet" type="text/css" href="themes/default/easyui.css">
-    <link rel="stylesheet" type="text/css" href="themes/icon.css">
-    <link rel="stylesheet" type="text/css" href="themes/color.css">
-    <!--    <link rel="stylesheet" type="text/css" href="demo/demo.css">-->
-    <script type="text/javascript" src="src/jquery.min.js"></script>
-    <script type="text/javascript" src="src/jquery.easyui.min.js"></script>
-</head>
+<title>Manage Our Attack</title>
+</html>
 <body>
 <h2>Dragonheart's C.O.C. Their Attack admin</h2>
 
@@ -105,7 +104,7 @@
     <a href="javascript:void(0)" class="easyui-linkbutton c6" iconCls="icon-ok" onclick="saveTheirAttack()"
        style="width:90px">Save</a>
     <a href="javascript:void(0)" class="easyui-linkbutton" iconCls="icon-cancel"
-       onclick="javascript:$('#dlg').dialog('close')" style="width:90px">Cancel</a>
+       onclick="$('#dlg').dialog('close')" style="width:90px">Cancel</a>
 </div>
 <script type="text/javascript">
     var url;

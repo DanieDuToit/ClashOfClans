@@ -336,6 +336,14 @@
       <foreign-key name="FK_Attack_OurParticipant" columns="OurParticipantID" ref-table="OurParticipant" ref-schema="dbo" ref-catalog="COC" ref-columns="OurParticipantID" update-rule="1" delete-rule="1" deferrability="2"/>
       <foreign-key name="FK_Attack_TheirParticipant" columns="TheirParticipantID" ref-table="TheirParticipant" ref-schema="dbo" ref-catalog="COC" ref-columns="TheirParticipantID" update-rule="1" delete-rule="1" deferrability="2"/>
     </table>
+    <table name="Clan" schema="dbo" catalog="COC" type="TABLE">
+      <column name="ClanID" sqlType="int identity" precision="10" scale="0" nullable="false" jdbcType="4" autoIncrement="true"/>
+      <column name="ClanName" sqlType="varchar" precision="50" scale="0" nullable="false" jdbcType="12"/>
+      <column name="Password" sqlType="varchar" precision="50" scale="0" nullable="true" jdbcType="12"/>
+      <primary-key name="PK_Clan" columns="ClanID"/>
+      <exported-key name="FK_Player_Clan" table="Player" schema="dbo" catalog="COC" columns="ClanID"/>
+      <exported-key name="FK_War_Clan" table="War" schema="dbo" catalog="COC" columns="ClanId"/>
+    </table>
     <table name="OurParticipant" schema="dbo" catalog="COC" type="TABLE">
       <column name="OurParticipantID" sqlType="int identity" precision="10" scale="0" nullable="false" jdbcType="4" autoIncrement="true"/>
       <column name="WarID" sqlType="int" precision="10" scale="0" nullable="false" jdbcType="4"/>
@@ -352,11 +360,14 @@
     </table>
     <table name="Player" schema="dbo" catalog="COC" type="TABLE">
       <column name="PlayerID" sqlType="int identity" precision="10" scale="0" nullable="false" jdbcType="4" autoIncrement="true"/>
+      <column name="ClanID" sqlType="int" precision="10" scale="0" nullable="false" jdbcType="4"/>
       <column name="GameName" sqlType="varchar" precision="50" scale="0" nullable="false" jdbcType="12"/>
       <column name="RealName" sqlType="varchar" precision="50" scale="0" nullable="false" jdbcType="12"/>
       <column name="Active" sqlType="bit" precision="1" scale="0" nullable="true" jdbcType="-7"/>
       <primary-key name="PK_Player" columns="PlayerID"/>
+      <foreign-key name="FK_Player_Clan" columns="ClanID" ref-table="Clan" ref-schema="dbo" ref-catalog="COC" ref-columns="ClanID" update-rule="1" delete-rule="1" deferrability="2"/>
       <exported-key name="FK_OurParticipant_Player" table="OurParticipant" schema="dbo" catalog="COC" columns="PlayerID"/>
+      <exported-key name="FK_gcm_users_Player" table="gcm_users" schema="dbo" catalog="COC" columns="PlayerID"/>
     </table>
     <table name="TheirParticipant" schema="dbo" catalog="COC" type="TABLE">
       <column name="TheirParticipantID" sqlType="int identity" precision="10" scale="0" nullable="false" jdbcType="4" autoIncrement="true"/>
@@ -422,22 +433,27 @@
     </table>
     <table name="War" schema="dbo" catalog="COC" type="TABLE">
       <column name="WarID" sqlType="int identity" precision="10" scale="0" nullable="false" jdbcType="4" autoIncrement="true"/>
+      <column name="ClanId" sqlType="int" precision="10" scale="0" nullable="false" jdbcType="4"/>
       <column name="Date" sqlType="date" precision="10" scale="0" nullable="false" jdbcType="91"/>
       <column name="NumberOfParticipants" sqlType="int" precision="10" scale="0" nullable="false" jdbcType="4"/>
       <column name="WarsWeWon" sqlType="int" precision="10" scale="0" nullable="true" jdbcType="4"/>
       <column name="WarsTheyWon" sqlType="int" precision="10" scale="0" nullable="true" jdbcType="4"/>
       <column name="Active" sqlType="bit" precision="1" scale="0" nullable="true" jdbcType="-7"/>
       <primary-key name="PK_War" columns="WarID"/>
+      <foreign-key name="FK_War_Clan" columns="ClanId" ref-table="Clan" ref-schema="dbo" ref-catalog="COC" ref-columns="ClanID" update-rule="1" delete-rule="1" deferrability="2"/>
       <exported-key name="FK_OurParticipant_War" table="OurParticipant" schema="dbo" catalog="COC" columns="WarID"/>
       <exported-key name="FK_TheirParticipant_War" table="TheirParticipant" schema="dbo" catalog="COC" columns="WarID"/>
     </table>
     <table name="gcm_users" schema="dbo" catalog="COC" type="TABLE">
       <column name="id" sqlType="int identity" precision="10" scale="0" nullable="false" jdbcType="4" autoIncrement="true"/>
       <column name="gcm_regid" sqlType="text" precision="2147483647" scale="0" nullable="true" jdbcType="-1"/>
+      <column name="PlayerID" sqlType="int" precision="10" scale="0" nullable="true" jdbcType="4"/>
       <column name="game_name" sqlType="varchar" precision="50" scale="0" nullable="false" jdbcType="12"/>
       <column name="email" sqlType="varchar" precision="255" scale="0" nullable="true" jdbcType="12"/>
       <column name="created_at" sqlType="datetime" precision="23" scale="3" nullable="false" jdbcType="93" def="JyhnZXRkYXRlKCkpJw=="/>
+      <column name="Active" sqlType="bit" precision="1" scale="0" nullable="true" jdbcType="-7" def="KCgxKSk="/>
       <primary-key name="PK_gcm_users" columns="id"/>
+      <foreign-key name="FK_gcm_users_Player" columns="PlayerID" ref-table="Player" ref-schema="dbo" ref-catalog="COC" ref-columns="PlayerID" update-rule="1" delete-rule="1" deferrability="2"/>
     </table>
     <table name="sysdiagrams" schema="dbo" catalog="COC" type="TABLE">
       <column name="name" sqlType="sysname" precision="128" scale="0" nullable="false" jdbcType="-9"/>

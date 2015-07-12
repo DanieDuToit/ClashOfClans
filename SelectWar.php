@@ -1,11 +1,26 @@
 <?php
     session_start();
+
+    if (!isset($_SESSION["selectedClanID"])) {
+        header("Location: Index.php?err=You must sign in first.");
+        die();
+    }
+
+    $selectedClanID = $_SESSION["selectedClanID"];
+
+    include_once("menu.php");
     include_once("BaseClasses/BaseDB.class.php");
     include_once("BaseClasses/Database.class.php");
 
     $contestant = isset($_REQUEST['contestant']) ? $_REQUEST['contestant'] : -1;
     $reset = isset($_REQUEST['reset']) ? 1 : 0;
+    if ($reset === 1) {
+        echo "<h2 class='error'>Please make sure you select the correct war. This action cannot be reversed.</h2>";
+    }
 ?>
+    <html>
+    <title>War Selection page</title>
+    </html>
 
     <h2>Select a war for the participants to participate in
     </h2>
@@ -15,10 +30,10 @@
         <select name="selectedWarID" id="selectedWarID">
             <?php
                 $dbBaseClass = new BaseDB();
-                $sql = "SELECT WarID ,CONVERT(VARCHAR(30), [Date], 13) AS dateString FROM War ORDER BY WarID DESC";
+                $sql = "SELECT WarID ,CONVERT(VARCHAR(30), [Date], 13) AS dateString FROM War WHERE ClanId = $selectedClanID ORDER BY WarID DESC";
                 $records = $dbBaseClass->dbQuery($sql);
                 while ($record = sqlsrv_fetch_array($records, SQLSRV_FETCH_BOTH)) {
-                    echo "<option value={$record['WarID']}>War ID:{$record['WarID']} => {$record['dateString']}</option>";
+                    echo "<option value={$record['WarID']}>War Date:{$record['dateString']}</option>";
                 }
             ?>
         </select>
