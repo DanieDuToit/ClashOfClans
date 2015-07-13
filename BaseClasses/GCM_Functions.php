@@ -2,7 +2,8 @@
     include_once("GCM_Functions.php");
     //Storing new user and returns user details
 
-    function storePlayer($name, $email, $gcm_regid) {
+    function storePlayer($name, $email, $gcm_regid)
+    {
         $db = new BaseDB();
 
         // insert user into database
@@ -31,7 +32,8 @@
     /**
      * Get user by email
      */
-    function getPlayerByEmail($email) {
+    function getPlayerByEmail($email)
+    {
         $db = new BaseDB();
         $result = $db->dbQuery("SELECT TOP(1) FROM gcm_users WHERE email = '$email'");
         return $result;
@@ -40,23 +42,26 @@
     /**
      * Get user by gameName
      */
-    function getPlayerByGameName($gameName) {
+    function getPlayerByGameName($gameName)
+    {
         $db = new BaseDB();
         $result = $db->dbQuery("SELECT TOP(1) FROM gcm_users WHERE game_name = '$gameName'");
         return $result;
     }
 
     // Getting all registered users
-    function getAllPlayers() {
-        $db = new BaseDB();
-        $result = $db->dbQuery("select * FROM gcm_users");
+    function getAllPlayers()
+    {
+        $db     = new BaseDB();
+        $result = $db->dbQuery("SELECT * FROM gcm_users");
         return $result;
     }
 
     // Validate user
-    function doesPlayerExist($gameName) {
-        $db = new BaseDB();
-        $result    = $db->dbQuery("SELECT count(id) AS count from gcm_users WHERE game_name = '$gameName'");
+    function doesPlayerExist($gameName)
+    {
+        $db     = new BaseDB();
+        $result = $db->dbQuery("SELECT count(id) AS count from gcm_users WHERE game_name = '$gameName'");
         $record = sqlsrv_fetch_array($result, SQLSRV_FETCH_BOTH);
         if ($record['count'] > 0) {
             // user exist
@@ -68,7 +73,8 @@
     }
 
     //Sending Push Notification
-    function send_push_notification($registatoin_ids, $message) {
+    function send_push_notification($registatoin_ids, $message)
+    {
 
 
         // Set POST variables
@@ -101,7 +107,7 @@
 
         // Execute post
         $result = curl_exec($ch);
-        if ($result === FALSE) {
+        if ($result === false) {
             $err = curl_error($ch);
             die('Curl failed: ' . curl_error($ch));
         }
@@ -110,4 +116,5 @@
         curl_close($ch);
         echo $result;
     }
+
 ?>

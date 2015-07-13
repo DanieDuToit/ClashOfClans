@@ -1,9 +1,11 @@
 <?php
     require_once('GCM_Loader.php');
+
+    $clanID = $_REQUEST['clanID'];
     $db = new BaseDB();
 
     $sql = "
-      SELECT gcm_regid, game_name FROM dbo.gcm_users
+      SELECT gcm_regid, game_name FROM dbo.gcm_users WHERE clanID = $clanID
     ";
 
     $result = $db->dbQuery($sql);

@@ -5,10 +5,10 @@
     include_once("BaseClasses/BaseDB.class.php");
     include_once("BaseClasses/Database.class.php");
 
-    $rank = $_REQUEST['rank'];
+    $rank       = $_REQUEST['rank'];
     $experience = $_REQUEST['experience'];
     $townhallLevel = $_REQUEST['townhalllevel'];
-    $db = new BaseDB();
+    $db         = new BaseDB();
 
     $sql = "INSERT INTO TheirParticipant(WarID, Experience, Rank, TownHallLevel)
       VALUES ($selectedWarID, $experience, $rank, $townhallLevel)";

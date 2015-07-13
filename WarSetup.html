@@ -1,56 +1,74 @@
 <!doctype html>
 <html>
 <head>
-<meta charset="utf-8">
-<title>Untitled Document</title>
+    <meta charset="utf-8">
+    <title>Untitled Document</title>
 
-<script type="text/javascript" src="src/jquery.min.js"></script>
+    <script type="text/javascript" src="src/jquery.min.js"></script>
 
-<?php
+    <?php
     // Get
 ?>
 <body><label></label>
+
 <form id="form1" name="form1" method="post">
-  <table width="636" border="0" cellspacing="2px" cellpadding="2px">
-    <caption>
-      War Detail
-    </caption>
-    <tbody>
-      <tr>
-        <th width="205" scope="row"><div align="right">Date:</div></th>
-        <td width="417"><input name="wardate" type="date" required id="wardate"></td>
-      </tr>
-      <tr>
-        <th scope="row"><div align="right">Number of participants:</div></th>
-        <td><input name="numberofparticipants" type="range" id="numberofparticipants" form="form1" max="50" min="10" step="5" value="10" onchange="showVal(this.value)">
-          <input name="particpantCount" type="text" disabled id="particpantCount" size="5" maxlength="5" readonly value="10"></td>
-      </tr>
-      <tr>
-        <th scope="row"><div align="right">Number of wars we have won:</div></th>
-        <td><input type="number" name="warswewon" id="warswewon"></td>
-      </tr>
-      <tr>
-        <th scope="row"><div align="right">Number of wars they have won:</div></th>
-        <td><input type="number" name="warstheywon" id="warstheywon"></td>
-      </tr>
-      <tr>
-        <th scope="row"><div align="right">Active:</div></th>
-        <td><input name="active" type="checkbox" id="active"></td>
-      </tr>
-      <tr>
-        <th colspan="2" scope="row"> <div align="center"> 
-          <input name="submit" type="submit" id="submit" formaction="OurContestantsSetup.php" formmethod="POST" value="Submit">
-        </div></th>
-      </tr>
-    </tbody>
-  </table>
-  <p>&nbsp;</p>
+    <table width="636" border="0" cellspacing="2px" cellpadding="2px">
+        <caption>
+            War Detail
+        </caption>
+        <tbody>
+        <tr>
+            <th width="205" scope="row">
+                <div align="right">Date:</div>
+            </th>
+            <td width="417"><input name="wardate" type="date" required id="wardate"></td>
+        </tr>
+        <tr>
+            <th scope="row">
+                <div align="right">Number of participants:</div>
+            </th>
+            <td><input name="numberofparticipants" type="range" id="numberofparticipants" form="form1" max="50" min="10"
+                       step="5" value="10" onchange="showVal(this.value)">
+                <input name="particpantCount" type="text" disabled id="particpantCount" size="5" maxlength="5" readonly
+                       value="10"></td>
+        </tr>
+        <tr>
+            <th scope="row">
+                <div align="right">Number of wars we have won:</div>
+            </th>
+            <td><input type="number" name="warswewon" id="warswewon"></td>
+        </tr>
+        <tr>
+            <th scope="row">
+                <div align="right">Number of wars they have won:</div>
+            </th>
+            <td><input type="number" name="warstheywon" id="warstheywon"></td>
+        </tr>
+        <tr>
+            <th scope="row">
+                <div align="right">Active:</div>
+            </th>
+            <td><input name="active" type="checkbox" id="active"></td>
+        </tr>
+        <tr>
+            <th colspan="2" scope="row">
+                <div align="center">
+                    <input name="submit" type="submit" id="submit" formaction="OurContestantsSetup.php"
+                           formmethod="POST" value="Submit">
+                </div>
+            </th>
+        </tr>
+        </tbody>
+    </table>
+    <p>&nbsp;</p>
 </form>
 </body>
 </html>
 <script type="text/javascript">
-    function showVal(newVal){
+    function showVal(newVal) {
         jQuery("#particpantCount").val(newVal);
     }
-    $("#numberofparticipants").on("input", function(){console.log(this.value)});
+    $("#numberofparticipants").on("input", function () {
+        console.log(this.value)
+    });
 </script>

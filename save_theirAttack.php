@@ -4,16 +4,16 @@
     include_once("BaseClasses/BaseDB.class.php");
     include_once("BaseClasses/Database.class.php");
 
-    $WarID = $_SESSION["selectedWarID"];
-    $OurAttack = 0;
-    $FirstAttack = $_REQUEST['firstattack'];
+    $WarID            = $_SESSION["selectedWarID"];
+    $OurAttack        = 0;
+    $FirstAttack      = $_REQUEST['firstattack'];
     $OurParticipantID = $_REQUEST['ourparticipantid'];
     $TheirParticipantID = $_REQUEST['theirparticipantid'];
-    $StarsTaken = $_REQUEST['starstaken'];
+    $StarsTaken       = $_REQUEST['starstaken'];
 
     $db = new BaseDB();
 
-    $sql = "insert into Attack(WarID, OurAttack, FirstAttack, OurParticipantID, TheirParticipantID, StarsTaken) values(
+    $sql          = "insert into Attack(WarID, OurAttack, FirstAttack, OurParticipantID, TheirParticipantID, StarsTaken) values(
       $WarID, $OurAttack, $FirstAttack, $OurParticipantID, $TheirParticipantID, $StarsTaken)";
     $result = $db->dbQuery($sql);
     if ($result == false) {

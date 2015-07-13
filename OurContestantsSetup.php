@@ -68,7 +68,7 @@
     <form id="fm" method="post" novalidate>
         <input type="hidden" name="selectedWarID" id="selectedWarID" value="<?php $selectedWarID ?>">
         <input type="hidden" name="ourparticipantid" id="ourparticipantid">
-<!--        <input name="playerid" type="hidden">-->
+        <!--        <input name="playerid" type="hidden">-->
 
         <div class="fitem">
             <label>Contestant:</label>
@@ -102,13 +102,13 @@
             <label>Townhall Level</label>
             <input name="townhalllevel" class="easyui-textbox" required="true">
         </div>
-<!--        <div class="fitem">-->
-<!--            <label>Participate?</label>-->
-<!--            <select name="participate">-->
-<!--                <option value="1">Yes</option>-->
-<!--                <option value="0">No</option>-->
-<!--            </select>-->
-<!--        </div>-->
+        <!--        <div class="fitem">-->
+        <!--            <label>Participate?</label>-->
+        <!--            <select name="participate">-->
+        <!--                <option value="1">Yes</option>-->
+        <!--                <option value="0">No</option>-->
+        <!--            </select>-->
+        <!--        </div>-->
 </div>
 </form>
 </div>

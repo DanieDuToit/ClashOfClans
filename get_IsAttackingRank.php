@@ -19,7 +19,7 @@
     $record = sqlsrv_fetch_array($result, SQLSRV_FETCH_BOTH);
 
     $data = array();
-    if(!$record) {
+    if (!$record) {
         $data['busyAttackingRank'][0] = array('rank' => 0);
     } else {
         $data['busyAttackingRank'][0] =

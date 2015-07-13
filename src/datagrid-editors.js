@@ -3,8 +3,7 @@
  */
 $.extend($.fn.datagrid.defaults.editors,
     {
-        workingcheckbox:
-        {
+        workingcheckbox: {
             init: function (container, options) {
                 var input = $('<input type="checkbox">').appendTo(container);
                 return input;
@@ -15,8 +14,7 @@ $.extend($.fn.datagrid.defaults.editors,
             setValue: function (target, value) {
                 $(target).prop('checked', value);
             },
-            editor:
-            {
+            editor: {
                 type: 'workingcheckbox',
                 required: true
             }

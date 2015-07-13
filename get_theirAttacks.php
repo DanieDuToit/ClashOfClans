@@ -5,9 +5,9 @@
     include_once("BaseClasses/BaseDB.class.php");
     include_once("BaseClasses/Database.class.php");
 
-    $i = 0;
+    $i       = 0;
     $dbBaseClass = new BaseDB();
-    $sql = "
+    $sql     = "
         SELECT atk.AttackID, atk.OurAttack, atk.FirstAttack, atk.OurParticipantID,
             atk.TheirParticipantID, atk.StarsTaken, dbo.Player.GameName,
             dbo.TheirParticipant.Rank,
@@ -23,15 +23,15 @@
     $records = $dbBaseClass->dbQuery($sql);
     while ($record = sqlsrv_fetch_array($records, SQLSRV_FETCH_BOTH)) {
         $data [$i++] = array(
-            'ourparticipant' => $record['OurParticipant'],
+            'ourparticipant'   => $record['OurParticipant'],
             'theirparticipant' => $record['TheirParticipant'],
-            'attackid' => $record['AttackID'],
-            'ourattack' => 0,
-            'firstattack' => $record['FirstAttack'],
+            'attackid'         => $record['AttackID'],
+            'ourattack'        => 0,
+            'firstattack'      => $record['FirstAttack'],
             'ourparticipantid' => $record['OurParticipantID'],
             'theirparticipantid' => $record['TheirParticipantID'],
-            'starstaken' => $record['StarsTaken'],
-            'gamename' => $record['GameName']
+            'starstaken'       => $record['StarsTaken'],
+            'gamename'         => $record['GameName']
         );
     }
     echo json_encode($data);

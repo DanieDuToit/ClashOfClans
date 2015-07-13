@@ -74,7 +74,7 @@
             goto endOfFunction;
         }
     }
-endOfFunction:
+    endOfFunction:
     if ($result == false) {
         echo "<h1>An Error occured and War has not been reset</h1> <br>
             The error was : dbGetErrorMsg()";

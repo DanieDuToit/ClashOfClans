@@ -4,11 +4,11 @@
     include_once("BaseClasses/BaseDB.class.php");
     include_once("BaseClasses/Database.class.php");
 
-    $AttackID = $_REQUEST['attackid'];
-    $FirstAttack = $_REQUEST['firstattack'];
+    $AttackID         = $_REQUEST['attackid'];
+    $FirstAttack      = $_REQUEST['firstattack'];
     $OurParticipantID = $_REQUEST['ourparticipantid'];
     $TheirParticipantID = $_REQUEST['theirparticipantid'];
-    $StarsTaken = $_REQUEST['starstaken'];
+    $StarsTaken       = $_REQUEST['starstaken'];
 
     $db = new BaseDB();
 

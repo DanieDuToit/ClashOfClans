@@ -5,6 +5,7 @@
 
     $message  = $_REQUEST["message"];
     $gameName = $_REQUEST["gameName"];
+    $clanID = $_REQUEST["clanID"];
 
     $i   = 0;
     $sql = "";
@@ -28,6 +29,6 @@
     }
     $db->Free($result);
     $db->close();
-    $msg    = array("data" => $message);
+    $msg = array("data" => $message);
     send_push_notification($registatoin_ids, $msg);
 ?>

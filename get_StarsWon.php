@@ -16,7 +16,7 @@
 
     $data = array();
     $i = 0;
-    if(!$records) {
+    if (!$records) {
         $data['starsWon'][0] = array(
             'TheirRank' => 0,
             'StarsTaken' => 0

@@ -36,9 +36,12 @@
     </thead>
 </table>
 <div id="toolbar">
-    <a href="javascript:void(0)" class="easyui-linkbutton" iconCls="icon-add" plain="true" onclick="newTheirAttack()">New Attack</a>
-    <a href="javascript:void(0)" class="easyui-linkbutton" iconCls="icon-edit" plain="true" onclick="editTheirAttack()">Edit Attack</a>
-    <a href="javascript:void(0)" class="easyui-linkbutton" iconCls="icon-remove" plain="true" onclick="destroyTheirAttack()">Remove Attack</a>
+    <a href="javascript:void(0)" class="easyui-linkbutton" iconCls="icon-add" plain="true" onclick="newTheirAttack()">New
+        Attack</a>
+    <a href="javascript:void(0)" class="easyui-linkbutton" iconCls="icon-edit" plain="true" onclick="editTheirAttack()">Edit
+        Attack</a>
+    <a href="javascript:void(0)" class="easyui-linkbutton" iconCls="icon-remove" plain="true"
+       onclick="destroyTheirAttack()">Remove Attack</a>
 </div>
 <div id="dlg" class="easyui-dialog" style="width:500px;height:350px;padding:10px 20px"
      closed="true" buttons="#dlg-buttons">

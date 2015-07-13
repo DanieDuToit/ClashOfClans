@@ -15,7 +15,7 @@
         AND OurAttack = 1
     ";
     $result = $db->dbQuery($sql);
-    if(!$result) {
+    if (!$result) {
         $data['result'][0] =
             array(
                 'success' => 0,

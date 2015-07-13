@@ -28,7 +28,7 @@
        rownumbers="false" fitColumns="true" singleSelect="true">
     <thead>
     <tr>
-<!--        <th field="firstattack" width="40">First Attack?</th>-->
+        <!--        <th field="firstattack" width="40">First Attack?</th>-->
         <th field="ourparticipant" width="50">Our Partcicpant ID</th>
         <th field="theirparticipant" width="50">Their Partcicpant ID</th>
         <th field="firstattack" width="15">First Attack</th>
@@ -37,9 +37,12 @@
     </thead>
 </table>
 <div id="toolbar">
-    <a href="javascript:void(0)" class="easyui-linkbutton" iconCls="icon-add" plain="true" onclick="newOurAttack()">New Attack</a>
-    <a href="javascript:void(0)" class="easyui-linkbutton" iconCls="icon-edit" plain="true" onclick="editOurAttack()">Edit Attack</a>
-    <a href="javascript:void(0)" class="easyui-linkbutton" iconCls="icon-remove" plain="true" onclick="destroyOurAttack()">Remove Attack</a>
+    <a href="javascript:void(0)" class="easyui-linkbutton" iconCls="icon-add" plain="true" onclick="newOurAttack()">New
+        Attack</a>
+    <a href="javascript:void(0)" class="easyui-linkbutton" iconCls="icon-edit" plain="true" onclick="editOurAttack()">Edit
+        Attack</a>
+    <a href="javascript:void(0)" class="easyui-linkbutton" iconCls="icon-remove" plain="true"
+       onclick="destroyOurAttack()">Remove Attack</a>
 </div>
 <div id="dlg" class="easyui-dialog" style="width:500px;height:350px;padding:10px 20px"
      closed="true" buttons="#dlg-buttons">
@@ -47,6 +50,7 @@
     <form id="fm" method="post" novalidate>
         <input name="warid" type="hidden">
         <input name="attackid" type="hidden">
+
         <div class="fitem">
             <label>First Attack?</label>
             <select name="firstattack">

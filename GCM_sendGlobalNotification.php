@@ -3,10 +3,11 @@
     $db = new BaseDB();
 
     $message = $_REQUEST["message"];
+    $clanID = $_REQUEST["clanID"];
 
-    $i      = 0;
+    $i   = 0;
     $sql = "
-      SELECT gcm_regid, game_name FROM dbo.gcm_users WHERE Active = 1
+      SELECT gcm_regid, game_name FROM dbo.gcm_users WHERE Active = 1 AND clanID = $clanID
     ";
 
     $result = $db->dbQuery($sql);

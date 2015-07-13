@@ -1,14 +1,14 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: dutoitd1
- * Date: 2015/05/27
- * Time: 12:24 PM
- */
+    /**
+     * Created by PhpStorm.
+     * User: dutoitd1
+     * Date: 2015/05/27
+     * Time: 12:24 PM
+     */
 
-//    echo json_encode(array (
-//        'errorMsg' => 'kjlkj jkh jhkl '
-//    ));
+    //    echo json_encode(array (
+    //        'errorMsg' => 'kjlkj jkh jhkl '
+    //    ));
     include_once("BaseClasses/BaseDB.class.php");
     include_once("BaseClasses/Database.class.php");
 

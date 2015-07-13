@@ -2,11 +2,13 @@
     include_once("BaseClasses/BaseDB.class.php");
     include_once("BaseClasses/Database.class.php");
 
+    $clanID = $_REQUEST['clanID'];
+
     $db = new BaseDB();
 
     $i      = 0;
     $sql    = "
-      SELECT PlayerID, GameName FROM dbo.Player WHERE Active = 1 ORDER BY GameName
+      SELECT PlayerID, GameName FROM dbo.Player WHERE Active = 1 AND ClanID = $clanID ORDER BY GameName
     ";
     $result = $db->dbQuery($sql);
     $data   = array();

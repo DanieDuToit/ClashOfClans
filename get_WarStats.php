@@ -22,22 +22,22 @@
 
     $data = array();
     $i = 0;
-    if(!$records) {
+    if (!$records) {
         $data['stats'][0] = array(
-            'GameName' => '',
-            'Attack' => '',
+            'GameName'  => '',
+            'Attack'    => '',
             'StarsTaken' => 0,
-            'OurRank' => 0,
+            'OurRank'   => 0,
             'TheirRank' => 0
         );
     } else {
         while ($record = sqlsrv_fetch_array($records, SQLSRV_FETCH_BOTH)) {
             $data['stats'][$i] =
                 array(
-                    'GameName' => $record['GameName'],
-                    'Attack' => $record['Attack'],
+                    'GameName'  => $record['GameName'],
+                    'Attack'    => $record['Attack'],
                     'StarsTaken' => $record['StarsTaken'],
-                    'OurRank' => $record['OurRank'],
+                    'OurRank'   => $record['OurRank'],
                     'TheirRank' => $record['TheirRank']
                 );
             $i++;

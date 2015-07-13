@@ -1,4 +1,6 @@
 <?php
     require_once('GCM_Loader.php');
 
-    SendNotificationToNextAttacker();
+    $clanID = $_REQUEST['clanID'];
+
+    SendNotificationToNextAttacker($clanID);

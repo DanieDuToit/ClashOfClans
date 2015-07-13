@@ -12,7 +12,7 @@
     } else {
         $WarID = $_SESSION["selectedWarID"];
     }
-    $OurAttack = 1;
+    $OurAttack        = 1;
     $OurParticipantID = $_REQUEST['ourparticipantid'];
     $TheirParticipantID = 0;
     if (isset($_REQUEST['theirparticipantid'])) {
@@ -20,7 +20,7 @@
     }
     // If their rank has been passed then we must get theirParticipantID
     if (isset($_REQUEST['theirRank'])) {
-        $sql = "
+        $sql    = "
             SELECT TheirParticipantID
             FROM dbo.TheirParticipant
             WHERE (Rank = {$_REQUEST['theirRank']}) AND (WarID = $WarID)
@@ -43,7 +43,7 @@
             'errorMsg' => 'There is already 2 attacks for this Rank'
         ]);
     }
-    $sql = "insert into Attack(WarID, OurAttack, FirstAttack, OurParticipantID, TheirParticipantID, StarsTaken) values(
+    $sql          = "insert into Attack(WarID, OurAttack, FirstAttack, OurParticipantID, TheirParticipantID, StarsTaken) values(
       $WarID, $OurAttack, $FirstAttack, $OurParticipantID, $TheirParticipantID, $StarsTaken)";
     $result = $db->dbQuery($sql);
     if ($result == false) {

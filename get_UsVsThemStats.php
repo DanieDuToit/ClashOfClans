@@ -23,11 +23,11 @@
     $i = 0;
     if (!$records) {
         $data['stats'][0] = array(
-            'GameName' => '',
-            'OurRank' => 0,
+            'GameName'      => '',
+            'OurRank'       => 0,
             'OurExperience' => 0,
-            'OurTownhall' => 0,
-            'TheirRank' => 0,
+            'OurTownhall'   => 0,
+            'TheirRank'     => 0,
             'TheirExperience' => 0,
             'TheirTownhall' => 0,
         );
@@ -35,11 +35,11 @@
         while ($record = sqlsrv_fetch_array($records, SQLSRV_FETCH_BOTH)) {
             $data['stats'][$i] =
                 array(
-                    'GameName' => $record['GameName'],
-                    'OurRank' => $record['OurRank'],
+                    'GameName'      => $record['GameName'],
+                    'OurRank'       => $record['OurRank'],
                     'OurExperience' => $record['OurExperience'],
-                    'OurTownhall' => $record['OurTownhall'],
-                    'TheirRank' => $record['TheirRank'],
+                    'OurTownhall'   => $record['OurTownhall'],
+                    'TheirRank'     => $record['TheirRank'],
                     'TheirExperience' => $record['TheirExperience'],
                     'TheirTownhall' => $record['TheirTownhall']
                 );

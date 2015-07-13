@@ -28,7 +28,7 @@
         return $returnString;
     }
 
-    function SendNotificationToNextAttacker()
+    function SendNotificationToNextAttacker($clanID)
     {
         $db = new BaseDB();
 
@@ -37,7 +37,7 @@
             FROM dbo.OurParticipant AS op INNER JOIN
                 dbo.Player AS p ON op.PlayerID = p.PlayerID INNER JOIN
                 dbo.gcm_users AS gcmu ON p.GameName = gcmu.game_name
-            WHERE op.NextAttacker = 1
+            WHERE op.NextAttacker = 1 AND ClanID = $clanID
         ";
 
         $result = $db->dbQuery($sql);

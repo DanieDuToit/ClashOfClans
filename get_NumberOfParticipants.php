@@ -1,16 +1,16 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: Danie
- * Date: 2015/06/07
- * Time: 10:35 AM
- */
+    /**
+     * Created by PhpStorm.
+     * User: Danie
+     * Date: 2015/06/07
+     * Time: 10:35 AM
+     */
 
     include_once("BaseClasses/BaseDB.class.php");
     include_once("BaseClasses/Database.class.php");
 
     $warID = $_REQUEST['WarID'];
-    $db= new BaseDB();
+    $db = new BaseDB();
 
     $sql_callFunc = "SELECT (SELECT dbo.[GetNumberOfParticipants]($warID)) AS result";
     $result = $db->dbQuery($sql_callFunc);

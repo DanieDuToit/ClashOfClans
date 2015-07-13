@@ -2,7 +2,7 @@
 
     require_once('GCM_Loader.php');
 
-    $gcmRegID = $_GET["regId"]; // GCM Registration ID got from device
+    $gcmRegID    = $_GET["regId"]; // GCM Registration ID got from device
     $pushMessage = $_GET["message"];
 
     if (isset($gcmRegID) && isset($pushMessage)) {

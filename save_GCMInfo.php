@@ -9,11 +9,12 @@
         $email = '';
     }
     $gcmRegistrationId = $_REQUEST['gcmRegistrationId'];
+    $clanID = $_REQUEST['clanID'];
     $retArray = array();
 
     // Does player exist in the table
     $exist = doesPlayerExist($gameName);
-    if ($exist === true){
+    if ($exist === true) {
         // Update the existing record
         $sql = "
             UPDATE gcm_users
@@ -26,7 +27,7 @@
                 $retArray = array("responseOK" => false, "responseMessage" => dbGetErrorMsg())
             ]);
         } else {
-            echo json_encode(array (
+            echo json_encode(array(
                 $retArray = array("responseOK" => true, "responseMessage" => 'Record Updated Successfully')
             ));
         }
@@ -34,10 +35,10 @@
         // Create a new record
         $sql = "
             INSERT INTO gcm_users (
-              gcm_regid, game_name, email, created_at
+              clanID, gcm_regid, game_name, email, created_at
             )
             VALUES (
-              '$gcmRegistrationId', '$gameName', '$email', GETDATE()
+              $clanID, '$gcmRegistrationId', '$gameName', '$email', GETDATE()
             )
         ";
         $result = $db->dbQuery($sql);
@@ -46,7 +47,7 @@
                 $retArray = array("responseOK" => false, "responseMessage" => dbGetErrorMsg())
             ]);
         } else {
-            echo json_encode(array (
+            echo json_encode(array(
                 $retArray = array("responseOK" => true, "responseMessage" => 'Record Inserted Successfully')
             ));
         }

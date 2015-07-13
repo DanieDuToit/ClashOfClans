@@ -5,7 +5,7 @@
 
     $WarID = $_REQUEST["selectedWarID"];
 
-    $OurAttack = 1;
+    $OurAttack        = 1;
     $OurParticipantID = $_REQUEST['ourparticipantid'];
     $TheirParticipantID = 0;
     if (isset($_REQUEST['theirparticipantid'])) {
@@ -13,7 +13,7 @@
     }
     // If their rank has been passed then we must get theirParticipantID
     if (isset($_REQUEST['theirRank'])) {
-        $sql = "
+        $sql    = "
             SELECT TheirParticipantID
             FROM dbo.TheirParticipant
             WHERE (Rank = {$_REQUEST['theirRank']}) AND (WarID = $WarID)
