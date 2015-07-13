@@ -13,7 +13,15 @@
     $retArray = array();
 
     // Does player exist in the table
-    $exist = doesPlayerExist($gameName);
+    $exist    = doesPlayerExist($gameName, $clanID);
+    $playerID = getPlayerID($gameName, $clanID);
+
+    if ($playerID === null) {
+        echo json_encode([
+            $retArray = array("responseOK" => false, "responseMessage" => "No such player")
+        ]);
+        goto EndOfFile;
+    }
     if ($exist === true) {
         // Update the existing record
         $sql = "
@@ -35,10 +43,10 @@
         // Create a new record
         $sql = "
             INSERT INTO gcm_users (
-              clanID, gcm_regid, game_name, email, created_at
+              PlayerID, clanID, gcm_regid, game_name, email, created_at
             )
             VALUES (
-              $clanID, '$gcmRegistrationId', '$gameName', '$email', GETDATE()
+              $playerID, $clanID, '$gcmRegistrationId', '$gameName', '$email', GETDATE()
             )
         ";
         $result = $db->dbQuery($sql);
@@ -52,3 +60,4 @@
             ));
         }
     }
+    EndOfFile:

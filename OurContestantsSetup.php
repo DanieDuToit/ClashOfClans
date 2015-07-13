@@ -75,7 +75,7 @@
             <select name="playerid" id="playerid"">
             <?php
                 $dbBaseClass = new BaseDB();
-                $sql = "SELECT PlayerID, GameName FROM Player WHERE Active = 1";
+                $sql = "SELECT PlayerID, GameName FROM Player WHERE Active = 1 AND ClanID = $clanID";
                 $records = $dbBaseClass->dbQuery($sql);
                 while ($record = sqlsrv_fetch_array($records, SQLSRV_FETCH_BOTH)) {
                     echo "<option value=\"{$record['PlayerID']}\">" . $record['GameName'] . "</option>";

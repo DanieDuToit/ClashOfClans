@@ -58,10 +58,10 @@
     }
 
     // Validate user
-    function doesPlayerExist($gameName)
+    function doesPlayerExist($gameName, $clanID)
     {
         $db     = new BaseDB();
-        $result = $db->dbQuery("SELECT count(id) AS count from gcm_users WHERE game_name = '$gameName'");
+        $result = $db->dbQuery("SELECT count(id) AS count from gcm_users WHERE game_name = '$gameName' AND clanID = $clanID");
         $record = sqlsrv_fetch_array($result, SQLSRV_FETCH_BOTH);
         if ($record['count'] > 0) {
             // user exist
@@ -69,6 +69,19 @@
         } else {
             // user does not existed
             return false;
+        }
+    }
+
+    // Validate user
+    function getPlayerID($gameName, $clanID)
+    {
+        $db      = new BaseDB();
+        $records = $db->dbQuery("SELECT PlayerID from Player WHERE GameName = '$gameName' AND ClanID = $clanID");
+        if (sqlsrv_has_rows($records)) {
+            $record = sqlsrv_fetch_array($records, SQLSRV_FETCH_BOTH);
+            return $record['PlayerID'];
+        } else {
+            return null;
         }
     }
 

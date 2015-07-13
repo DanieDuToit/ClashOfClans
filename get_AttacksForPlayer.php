@@ -16,18 +16,26 @@
        AND ISNULL(StarsTaken, -1) <> -1
     ";
 
-    $result = $db->dbQuery($sql);
+    $records = $db->dbQuery($sql);
 
-    $i = 0;
     $data = array();
-    while ($record = sqlsrv_fetch_array($result, SQLSRV_FETCH_BOTH)) {
-        $data['attacks'][$i++] = array(
-            'TheirRank' => $record['TheirRank'],
-            'StarsTaken' => $record['StarsTaken']
+    $i       = 0;
+    if (!sqlsrv_has_rows($records)) {
+        $data['attacks'][0] = array(
+            'TheirRank'  => 0,
+            'StarsTaken' => 0
         );
+    } else {
+        while ($record = sqlsrv_fetch_array($records, SQLSRV_FETCH_BOTH)) {
+            $data['attacks'][$i] = array(
+                'TheirRank'  => $record['TheirRank'],
+                'StarsTaken' => $record['StarsTaken']
+            );
+            $i++;
+        }
     }
-    $db->Free($result);
+
+    $db->Free($records);
     $db->close();
 
     echo json_encode($data);
-

@@ -16,18 +16,17 @@
 
     $data = array();
     $i = 0;
-    if (!$records) {
+    if (!sqlsrv_has_rows($records)) {
         $data['starsWon'][0] = array(
             'TheirRank' => 0,
             'StarsTaken' => 0
         );
     } else {
         while ($record = sqlsrv_fetch_array($records, SQLSRV_FETCH_BOTH)) {
-            $data['starsWon'][$i] =
-                array(
-                    'TheirRank' => $record['TheirRank'],
-                    'StarsTaken' => $record['StarsTaken']
-                );
+            $data['starsWon'][$i] = array(
+                'TheirRank'  => $record['TheirRank'],
+                'StarsTaken' => $record['StarsTaken']
+            );
             $i++;
         }
     }
