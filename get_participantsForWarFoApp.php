@@ -8,12 +8,13 @@
     } else {
         $noWarID = false;
     }
+    $clanID = $_REQUEST['clanID'];
 
     $db = new BaseDB();
     // If no warid was send (WarID = 0) then use the first War that is active
     if ($noWarID == false) {
         $sql     = "
-            SELECT TOP(1) WarID FROM War WHERE Active = 1
+            SELECT TOP(1) WarID FROM War WHERE Active = 1 AND ClanId = $clanID
         ";
         $records = $db->dbQuery($sql);
         $record  = sqlsrv_fetch_array($records, SQLSRV_FETCH_BOTH);
