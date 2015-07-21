@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <component name="dataSourceStorage">
-  <data-source name="SQL Server - COC@localhost" uuid="117124ca-7dad-44c8-a758-fdde92261f11">
+  <data-source name="SQL Server - @DANIE-TOSH" uuid="c13f7cda-53f9-4eb8-893d-01ae90f220d2">
     <database-info product="Microsoft SQL Server" version="11.00.2218" jdbc-version="4.0" driver-name="Microsoft JDBC Driver 4.0 for SQL Server" driver-version="4.0.2206.100">
       <extra-name-characters>$#@</extra-name-characters>
       <identifier-quote-string>&quot;</identifier-quote-string>
@@ -370,6 +370,7 @@
       <foreign-key name="FK_Player_Clan" columns="ClanID" ref-table="Clan" ref-schema="dbo" ref-catalog="COC" ref-columns="ClanID" update-rule="1" delete-rule="1" deferrability="2"/>
       <exported-key name="FK_OurParticipant_Player" table="OurParticipant" schema="dbo" catalog="COC" columns="PlayerID"/>
       <exported-key name="FK_gcm_users_Player" table="gcm_users" schema="dbo" catalog="COC" columns="PlayerID"/>
+      <index name="IX_Player" unique="true" columns="ClanID,GameName"/>
     </table>
     <table name="TheirParticipant" schema="dbo" catalog="COC" type="TABLE">
       <column name="TheirParticipantID" sqlType="int identity" precision="10" scale="0" nullable="false" jdbcType="4" autoIncrement="true"/>
@@ -380,6 +381,25 @@
       <primary-key name="PK_TheirParticipant" columns="TheirParticipantID"/>
       <foreign-key name="FK_TheirParticipant_War" columns="WarID" ref-table="War" ref-schema="dbo" ref-catalog="COC" ref-columns="WarID" update-rule="1" delete-rule="1" deferrability="2"/>
       <exported-key name="FK_Attack_TheirParticipant" table="Attack" schema="dbo" catalog="COC" columns="TheirParticipantID"/>
+    </table>
+    <table name="View_AttacksStats" schema="dbo" catalog="COC" type="VIEW">
+      <column name="OurRank" sqlType="int" precision="10" scale="0" nullable="false" jdbcType="4"/>
+      <column name="TheirRank" sqlType="int" precision="10" scale="0" nullable="false" jdbcType="4"/>
+      <column name="StarsTaken" sqlType="int" precision="10" scale="0" nullable="true" jdbcType="4"/>
+      <column name="OurAttack" sqlType="bit" precision="1" scale="0" nullable="false" jdbcType="-7"/>
+      <column name="FirstAttack" sqlType="bit" precision="1" scale="0" nullable="false" jdbcType="-7"/>
+      <column name="OurExperience" sqlType="int" precision="10" scale="0" nullable="true" jdbcType="4"/>
+      <column name="TheirExperience" sqlType="int" precision="10" scale="0" nullable="true" jdbcType="4"/>
+    </table>
+    <table name="View_AttacksStatsResults" schema="dbo" catalog="COC" type="VIEW">
+      <column name="Number of losts where our experience was less than or equals to theirs and the ranks was the same" sqlType="int" precision="10" scale="0" nullable="true" jdbcType="4"/>
+      <column name="Number of losts where our experience was greater than or equals to theirs and the ranks was the same" sqlType="int" precision="10" scale="0" nullable="true" jdbcType="4"/>
+      <column name="Number of wins where our experience was less than or equal to theirs and the ranks was the same" sqlType="int" precision="10" scale="0" nullable="true" jdbcType="4"/>
+      <column name="Number of wins where our experience was greater than or equal to theirs and the ranks was the same" sqlType="int" precision="10" scale="0" nullable="true" jdbcType="4"/>
+      <column name="Number of losts where the ranks was the same" sqlType="int" precision="10" scale="0" nullable="true" jdbcType="4"/>
+      <column name="Number of losts where their ranks was one lower than ours" sqlType="int" precision="10" scale="0" nullable="true" jdbcType="4"/>
+      <column name="Number of wins where the ranks was the same" sqlType="int" precision="10" scale="0" nullable="true" jdbcType="4"/>
+      <column name="Number of wins where their ranks was one lower than ours" sqlType="int" precision="10" scale="0" nullable="true" jdbcType="4"/>
     </table>
     <table name="View_GetPlayersBelowWithTwoAttacksLeft" schema="dbo" catalog="COC" type="VIEW">
       <column name="Active" sqlType="bit" precision="1" scale="0" nullable="true" jdbcType="-7"/>
@@ -5475,6 +5495,13 @@
       <prototype>
         <parameter name="@warID" sqlType="int" precision="10" scale="0" nullable="true" jdbcType="4" type="1" index="1"/>
         <parameter name="@ownRank" sqlType="int" precision="10" scale="0" nullable="true" jdbcType="4" type="1" index="2"/>
+        <parameter name="@RETURN_VALUE" sqlType="int" precision="10" scale="0" nullable="true" jdbcType="4" type="5" index="0"/>
+      </prototype>
+    </procedure>
+    <procedure name="GetDirectOppositeOpponentByExperience" schema="dbo" catalog="COC" type="2">
+      <prototype>
+        <parameter name="@WarID" sqlType="int" precision="10" scale="0" nullable="true" jdbcType="4" type="1" index="1"/>
+        <parameter name="@OwnRank" sqlType="int" precision="10" scale="0" nullable="true" jdbcType="4" type="1" index="2"/>
         <parameter name="@RETURN_VALUE" sqlType="int" precision="10" scale="0" nullable="true" jdbcType="4" type="5" index="0"/>
       </prototype>
     </procedure>
