@@ -7,7 +7,8 @@
 
     $db = new BaseDB();
 
-    $sql_callFunc = "SELECT (SELECT dbo.[PlayersNextBestAttack]($selectedWarID, $ownRank) AS RankToAttack) AS RankToAttack";
+    //TODO Remember to change the hardcoded '0' (RankByExperience) below -> BIT
+    $sql_callFunc = "SELECT (SELECT dbo.[PlayersNextBestAttack]($selectedWarID, $ownRank, 0) AS RankToAttack) AS RankToAttack";
     $result = $db->dbQuery($sql_callFunc);
     $rankToAttack = 0;
     $err = "";

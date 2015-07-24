@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="dataSourceStorageLocal">
-    <data-source name="SQL Server - @DANIE-TOSH" uuid="c13f7cda-53f9-4eb8-893d-01ae90f220d2" />
+    <data-source name="SQL Server - @DANIE-TOSH" uuid="c13f7cda-53f9-4eb8-893d-01ae90f220d2">
+      <secret-storage>master_key</secret-storage>
+      <domain-auth>true</domain-auth>
+      <user-name>sa</user-name>
+      <schema-pattern>COC.*</schema-pattern>
+      <default-schemas>COC.*</default-schemas>
+    </data-source>
   </component>
 </project>
