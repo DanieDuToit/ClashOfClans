@@ -26,7 +26,9 @@
     $FirstAttack = 0; // By default the second attack
 
     // See if this is the first or second attack
-    $sql = "SELECT COUNT(AttackID) AS counter FROM Attack WHERE (WarID = $WarID) AND (OurParticipantID = $OurParticipantID) AND (ISNULL(StarsTaken, - 1) <> - 1) GROUP BY StarsTaken";
+    $sql = "SELECT COUNT(AttackID) AS counter FROM Attack
+      WHERE (WarID = $WarID) AND (OurParticipantID = $OurParticipantID)
+      AND (NOT StarsTaken IS NULL AND OurAttack = 1) GROUP BY StarsTaken";
     $result = $db->dbQuery($sql);
     $record = sqlsrv_fetch_array($result, SQLSRV_FETCH_BOTH);
     if ($record['counter'] == 0) {

@@ -15,9 +15,11 @@
     $dbBaseClass = new BaseDB();
     $activeOnly = $_REQUEST['activeonly'];
     if ($activeOnly === 1) {
-        $records = $dbBaseClass->dbQuery("SELECT PlayerID, GameName, RealName, Active FROM Player WHERE active=1 AND ClanID = $selectedClanID");
+        $records = $dbBaseClass->dbQuery("SELECT PlayerID, GameName, RealName, Active FROM Player
+          WHERE active=1 AND ClanID = $selectedClanID");
     } else {
-        $records = $dbBaseClass->dbQuery("SELECT PlayerID, GameName, RealName, Active FROM Player WHERE ClanID = $selectedClanID");
+        $records = $dbBaseClass->dbQuery("SELECT PlayerID, GameName, RealName, Active FROM Player
+          WHERE ClanID = $selectedClanID");
     }
 
     $data = array();

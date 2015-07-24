@@ -37,10 +37,6 @@
 
 <!--</head>-->
 <body>
-<div data-role="header">
-    <h1>Clash Of Clans Admin</h1>
-</div>
-
 <div data-role="page" id="page">
     <!-- Start css3menu.com BODY section -->
 

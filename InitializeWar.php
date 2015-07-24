@@ -30,6 +30,7 @@
     $records = $db->dbQuery($sql);
     while ($record = sqlsrv_fetch_array($records, SQLSRV_FETCH_BOTH)) {
         // Insert both attack records for each of our contestants
+        // First Attack
         $sql = "INSERT INTO Attack(WarID, OurAttack, FirstAttack, OurParticipantID, TheirParticipantID, StarsTaken)
           VALUES ($selectedWarID, 1, 1, {$record['OurParticipantID']}, 0, null)";
         $result = $db->dbQuery($sql);
@@ -39,6 +40,7 @@
             ]);
             goto endOfFunction;
         }
+        // Second Attack
         $sql = "INSERT INTO Attack(WarID, OurAttack, FirstAttack, OurParticipantID, TheirParticipantID, StarsTaken)
           VALUES ($selectedWarID, 1, 0, {$record['OurParticipantID']}, 0, null)";
         $result = $db->dbQuery($sql);
@@ -51,7 +53,7 @@
     }
 
     // Insert the records for their opponents
-    $sql = "SELECT TheirParticipantID FROM TheirParticipant WHERE WarID = $selectedWarID";
+    $sql = "SELECT TheirParticipantID, Rank FROM TheirParticipant WHERE WarID = $selectedWarID ORDER BY Rank";
     $records = $db->dbQuery($sql);
     while ($record = sqlsrv_fetch_array($records, SQLSRV_FETCH_BOTH)) {
         // Insert both attack records for each of our contestants
@@ -66,6 +68,29 @@
         }
         $sql = "INSERT INTO Attack(WarID, OurAttack, FirstAttack, OurParticipantID, TheirParticipantID, StarsTaken)
           VALUES ($selectedWarID, 0, 0, 0, {$record['TheirParticipantID']}, null)";
+        $result = $db->dbQuery($sql);
+        if ($result == false) {
+            echo json_encode([
+                'errorMsg' => 'An error occured: ' . dbGetErrorMsg()
+            ]);
+            goto endOfFunction;
+        }
+        // Update TheirParticipant to set the Rank by Experience
+        // Get the Opponents Rank by experience
+        $sql_callFunc = "SELECT (SELECT dbo.[GetDirectOppositeOpponentByExperience]($selectedWarID, {$record['Rank']}) AS RankToAttack) AS RankToAttack";
+        $result = $db->dbQuery($sql_callFunc);
+        $rankToAttack = 0;
+        $err = "";
+        $record2 = sqlsrv_fetch_array($result, SQLSRV_FETCH_BOTH);
+        if ($record2 == false) {
+            echo json_encode([
+                'errorMsg' => 'An error occured: ' . dbGetErrorMsg()
+            ]);
+            goto endOfFunction;
+        }
+        $rankToAttack = $record2['RankToAttack'];
+        // Update the record
+        $sql = "UPDATE TheirParticipant SET RankByExperience = $rankToAttack WHERE TheirParticipantID = {$record['TheirParticipantID']}";
         $result = $db->dbQuery($sql);
         if ($result == false) {
             echo json_encode([

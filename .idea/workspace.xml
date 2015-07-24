@@ -1,26 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="454a5460-608f-40a8-84c5-d9fd22344a87" name="Default" comment="9 Jul 2015">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Index.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/menu.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/styles.css" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\Index.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\inetpub\wwwroot\ClashOfClans\Index.htmlbk" afterPath="" />
-      <change type="MOVED" beforePath="C:\inetpub\wwwroot\ClashOfClans\css\demo.css" afterPath="$PROJECT_DIR$/css/coc.css" />
+    <list default="true" id="454a5460-608f-40a8-84c5-d9fd22344a87" name="Default" comment="12 Jul 2015">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.ids" afterPath="$PROJECT_DIR$/.idea/dataSources.ids" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GCM_sendGlobalNotification.php" afterPath="$PROJECT_DIR$/GCM_sendGlobalNotification.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/InitializeWar.php" afterPath="$PROJECT_DIR$/InitializeWar.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ManageOurAttack.php" afterPath="$PROJECT_DIR$/ManageOurAttack.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ManagePlayers.php" afterPath="$PROJECT_DIR$/ManagePlayers.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ManageTheirAttack.php" afterPath="$PROJECT_DIR$/ManageTheirAttack.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ManageWars.php" afterPath="$PROJECT_DIR$/ManageWars.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/OurContestantsSetup.php" afterPath="$PROJECT_DIR$/OurContestantsSetup.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SelectWar.php" afterPath="$PROJECT_DIR$/SelectWar.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TheirContestantsSetup.php" afterPath="$PROJECT_DIR$/TheirContestantsSetup.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sql/coc.sql" afterPath="$PROJECT_DIR$/sql/coc.sql" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BaseClasses/Settings.inc.php" afterPath="$PROJECT_DIR$/BaseClasses/Settings.inc.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/deployment.xml" afterPath="$PROJECT_DIR$/.idea/deployment.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/get_players.php" afterPath="$PROJECT_DIR$/get_players.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/menu.php" afterPath="$PROJECT_DIR$/menu.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/unlockLockedAttack.php" afterPath="$PROJECT_DIR$/unlockLockedAttack.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/update_ourAttackForApp.php" afterPath="$PROJECT_DIR$/update_ourAttackForApp.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ClashOfClans.iws" />
@@ -47,10 +38,6 @@
         <option name="myItemId" />
         <option name="myItemType" value="com.intellij.database.view.DbRootNodeDescriptor" />
       </PATH_ELEMENT>
-      <PATH_ELEMENT>
-        <option name="myItemId" value="SQL Server - COC@localhost" />
-        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
-      </PATH_ELEMENT>
     </PATH>
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
@@ -59,120 +46,35 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="menu.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/menu.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-5.8846154">
-              <caret line="21" column="57" selection-start-line="21" selection-start-column="57" selection-end-line="21" selection-end-column="57" />
-              <folding>
-                <element signature="e#6#28#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ManagePlayers.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ManagePlayers.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-8.5">
-              <caret line="13" column="32" selection-start-line="13" selection-start-column="32" selection-end-line="13" selection-end-column="32" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SelectWar.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SelectWar.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding>
-                <marker date="1436697773260" expanded="true" signature="1018:1138" placeholder="SELECT WarID..War..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="InitializeWar.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="InitializeWar.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/InitializeWar.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.96088433">
+              <caret line="97" column="0" selection-start-line="97" selection-start-column="0" selection-end-line="97" selection-end-column="0" />
               <folding>
-                <marker date="1436697773250" expanded="true" signature="554:587" placeholder="DELETE FROM ..." />
-                <marker date="1436697773250" expanded="true" signature="817:875" placeholder="SELECT OurPa..OurParticipant..." />
-                <marker date="1436697773250" expanded="true" signature="1081:1260" placeholder="INSERT INTO ..." />
-                <marker date="1436697773250" expanded="true" signature="1507:1686" placeholder="INSERT INTO ..." />
-                <marker date="1436697773250" expanded="true" signature="1982:2044" placeholder="SELECT Their..TheirParticipant..." />
-                <marker date="1436697773250" expanded="true" signature="2250:2431" placeholder="INSERT INTO ..." />
-                <marker date="1436697773250" expanded="true" signature="2678:2859" placeholder="INSERT INTO ..." />
+                <marker date="1437680943063" expanded="true" signature="550:583" placeholder="DELETE FROM ..." />
+                <marker date="1437680943063" expanded="true" signature="813:871" placeholder="SELECT OurPa..OurParticipant..." />
+                <marker date="1437680943063" expanded="true" signature="1101:1280" placeholder="INSERT INTO ..." />
+                <marker date="1437680943063" expanded="true" signature="1552:1731" placeholder="INSERT INTO ..." />
+                <marker date="1437680943063" expanded="true" signature="2027:2095" placeholder="SELECT Their..TheirParticipant..." />
+                <marker date="1437680943063" expanded="true" signature="2027:2123" placeholder="SELECT Their..TheirParticipant..." />
+                <marker date="1437680943063" expanded="true" signature="2315:2496" placeholder="INSERT INTO ..." />
+                <marker date="1437680943063" expanded="true" signature="2743:2924" placeholder="INSERT INTO ..." />
+                <marker date="1437680943063" expanded="true" signature="3868:3914" placeholder="UPDATE Their..." />
+                <marker date="1437680943063" expanded="true" signature="3868:3915" placeholder="UPDATE Their..." />
+                <marker date="1437680943063" expanded="true" signature="3868:3955" placeholder="UPDATE Their..." />
+                <marker date="1437680943063" expanded="true" signature="3868:3956" placeholder="UPDATE Their..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ManageTheirAttack.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ManageTheirAttack.php">
+      <file leaf-file-name="get_NextBestAttack.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/get_NextBestAttack.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-10.269231">
-              <caret line="19" column="4" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="4" />
-              <folding>
-                <marker date="1436697773266" expanded="true" signature="2469:2629" placeholder="SELECT CONCA..TheirParticipant..." />
-                <marker date="1436697773266" expanded="true" signature="3273:3634" placeholder="SELECT CONCA..Player..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ManageOurAttack.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ManageOurAttack.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="2.6153846">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding>
-                <marker date="1436697773206" expanded="true" signature="2521:2882" placeholder="SELECT CONCA..Player..." />
-                <marker date="1436697773206" expanded="true" signature="3505:3665" placeholder="SELECT CONCA..TheirParticipant..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TheirContestantsSetup.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TheirContestantsSetup.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-9.153846">
-              <caret line="18" column="4" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="4" />
-              <folding>
-                <marker date="1436697773193" expanded="true" signature="620:704" placeholder="SELECT WarID..War..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="OurContestantsSetup.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/OurContestantsSetup.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.17525773">
-              <caret line="16" column="28" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
-              <folding>
-                <marker date="1436697773228" expanded="true" signature="539:545" placeholder="..." />
-                <marker date="1436697773228" expanded="true" signature="719:803" placeholder="SELECT WarID..War..." />
-                <marker date="1436697773228" expanded="true" signature="2998:3052" placeholder="SELECT Playe..Player..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Index.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Index.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-19.615385">
-              <caret line="30" column="14" selection-start-line="30" selection-start-column="14" selection-end-line="30" selection-end-column="14" />
-              <folding>
-                <marker date="1436697674780" expanded="true" signature="556:597" placeholder="SELECT Passw..Clan..." />
-                <marker date="1436697674780" expanded="true" signature="556:604" placeholder="SELECT ClanI..Clan..." />
-                <marker date="1436697674780" expanded="true" signature="1356:1407" placeholder="SELECT ClanI..Clan..." />
-              </folding>
+            <state vertical-scroll-proportion="-13.076923">
+              <caret line="20" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -192,7 +94,6 @@
       <list>
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/get_participantsForWar.php" />
-        <option value="$PROJECT_DIR$/BaseClasses/Settings.inc.php" />
         <option value="$PROJECT_DIR$/GCM_send_push_notification_message.php" />
         <option value="$PROJECT_DIR$/GCM_testSendGlobalNotification.php" />
         <option value="$PROJECT_DIR$/GCM_Functions.php" />
@@ -201,27 +102,33 @@
         <option value="$PROJECT_DIR$/GCM_sendPushNotification.php" />
         <option value="$PROJECT_DIR$/GCM_SendNotificationToNextAttacker.php" />
         <option value="$PROJECT_DIR$/set_RankAttacking.php" />
-        <option value="$PROJECT_DIR$/get_participantsForWarFoApp.php" />
         <option value="$PROJECT_DIR$/get_orderOfAttacks.php" />
         <option value="$PROJECT_DIR$/get_NextBestAttack.php" />
         <option value="$PROJECT_DIR$/BaseClasses/GCM_Functions.php" />
-        <option value="$PROJECT_DIR$/update_ourAttackForApp.php" />
-        <option value="$PROJECT_DIR$/get_wars.php" />
-        <option value="$PROJECT_DIR$/GCM_sendGlobalNotification.php" />
         <option value="$PROJECT_DIR$/Index.html" />
         <option value="$PROJECT_DIR$/css/demo.css" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/Index.php" />
         <option value="$PROJECT_DIR$/selectClan.php" />
-        <option value="$PROJECT_DIR$/get_players.php" />
-        <option value="$PROJECT_DIR$/InitializeWar.php" />
-        <option value="$PROJECT_DIR$/OurContestantsSetup.php" />
         <option value="$PROJECT_DIR$/ManageOurAttack.php" />
         <option value="$PROJECT_DIR$/ManagePlayers.php" />
         <option value="$PROJECT_DIR$/ManageWars.php" />
         <option value="$PROJECT_DIR$/SelectWar.php" />
         <option value="$PROJECT_DIR$/ManageTheirAttack.php" />
         <option value="$PROJECT_DIR$/TheirContestantsSetup.php" />
+        <option value="$PROJECT_DIR$/get_wars.php" />
+        <option value="$PROJECT_DIR$/save_war.php" />
+        <option value="$PROJECT_DIR$/save_player.php" />
+        <option value="$PROJECT_DIR$/get_players.php" />
+        <option value="$PROJECT_DIR$/get_OurPlayers.php" />
+        <option value="$PROJECT_DIR$/OurContestantsSetup.php" />
+        <option value="$PROJECT_DIR$/menu.php" />
+        <option value="$PROJECT_DIR$/update_ourAttackForApp.php" />
+        <option value="$PROJECT_DIR$/get_participantsForWarFoApp.php" />
+        <option value="$PROJECT_DIR$/BaseClasses/Settings.inc.php" />
+        <option value="$PROJECT_DIR$/unlockLockedAttack.php" />
+        <option value="$PROJECT_DIR$/GCM_sendGlobalNotification.php" />
+        <option value="$PROJECT_DIR$/InitializeWar.php" />
       </list>
     </option>
   </component>
@@ -232,9 +139,15 @@
   <component name="NamedScopeManager">
     <order />
   </component>
+  <component name="PhpDebugGeneral" notify_if_session_was_finished_without_being_paused="false" />
   <component name="PhpServers">
     <servers>
       <server host="localhost" id="9473b5ab-5adb-4ff0-9db0-981b72b60417" name="localhost" />
+      <server host="PhpStorm 9.0" id="c5bc93b3-560a-40c0-911d-5ad2d0d449d9" name="PhpStorm 9.0" port="9001" use_path_mappings="true">
+        <path_mappings>
+          <mapping local-root="$PROJECT_DIR$" remote-root="C:/inetpub/wwwroot/ClashOfClans" />
+        </path_mappings>
+      </server>
     </servers>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" interpreter_name="PHP5.4" />
@@ -288,8 +201,8 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -438,7 +351,13 @@
       <option name="project" value="LOCAL" />
       <updated>1436463519383</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="12 Jul 2015">
+      <created>1436697960601</created>
+      <option name="number" value="00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1436697960601</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -447,18 +366,17 @@
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Regex Tester" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.48534203" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3257329" sideWeight="0.5030211" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3257329" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33112583" sideWeight="0.49697885" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23867069" sideWeight="0.5" order="5" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2439577" sideWeight="0.5" order="5" side_tool="false" content_ui="combo" />
       <window_info id="Script Monkey" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32899022" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24048707" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.37785017" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="true" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24018127" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.1510574" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.41205212" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.45292208" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
@@ -468,6 +386,7 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32930514" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.37785017" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
@@ -479,18 +398,18 @@
       <window_info id="PHP-CGI Server" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Regex Tester" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.48534203" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3257329" sideWeight="0.5030211" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3264368" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3257329" sideWeight="0.49697885" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32930514" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22960725" sideWeight="0.5" order="5" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23867069" sideWeight="0.5" order="5" side_tool="false" content_ui="combo" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
-      <window_info id="Script Monkey" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
+      <window_info id="Script Monkey" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32899022" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24048707" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.37913907" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.37785017" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.1510574" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
@@ -515,7 +434,8 @@
     <MESSAGE value="2 Jul 2015" />
     <MESSAGE value="6 Jul 2015" />
     <MESSAGE value="9 Jul 2015" />
-    <option name="LAST_COMMIT_MESSAGE" value="9 Jul 2015" />
+    <MESSAGE value="12 Jul 2015" />
+    <option name="LAST_COMMIT_MESSAGE" value="12 Jul 2015" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
@@ -523,69 +443,19 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/save_ourAttack.php</url>
-          <line>8</line>
-          <option name="timeStamp" value="149" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/get_StarsWon.php</url>
+          <url>file://$PROJECT_DIR$/update_ourAttackForApp.php</url>
           <line>7</line>
-          <option name="timeStamp" value="160" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/get_TheirContestants.php</url>
-          <line>8</line>
-          <option name="timeStamp" value="177" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/save_GCMInfo.php</url>
-          <line>4</line>
-          <option name="timeStamp" value="178" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/GCM_SendNotificationToNextAttacker.php</url>
-          <line>3</line>
-          <option name="timeStamp" value="181" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/SelectWar.php</url>
-          <line>44</line>
-          <option name="timeStamp" value="184" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/TheirContestantsSetup.php</url>
-          <line>24</line>
-          <option name="timeStamp" value="185" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/OurContestantsSetup.php</url>
-          <line>3</line>
-          <option name="timeStamp" value="186" />
+          <option name="timeStamp" value="192" />
         </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="187" />
+      <option name="time" value="193" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/get_StarsWon.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.0">
-          <caret line="4" column="37" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/get_WarStats.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/save_TheirContestant.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -604,13 +474,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.44363636">
           <caret line="16" column="10" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/getActiveWars.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="21" column="26" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
         </state>
       </provider>
     </entry>
@@ -653,14 +516,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="39" column="68" selection-start-line="39" selection-start-column="68" selection-end-line="39" selection-end-column="68" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/get_OurPlayers.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6917098">
-          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -682,21 +537,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="3" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/get_participantsForWar.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="8" column="26" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BaseClasses/Settings.inc.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.51554406">
-          <caret line="18" column="34" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="34" />
         </state>
       </provider>
     </entry>
@@ -742,31 +582,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/get_participantsForWarFoApp.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/get_orderOfAttacks.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.05923345">
           <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/get_NextBestAttack.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.08885018">
-          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BaseClasses/GCM_Functions.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="2" column="35" selection-start-line="2" selection-start-column="35" selection-end-line="2" selection-end-column="35" />
         </state>
       </provider>
     </entry>
@@ -777,53 +596,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/GCM_SendNotificationToNextAttacker.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/update_ourAttackForApp.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="72" column="46" selection-start-line="72" selection-start-column="46" selection-end-line="72" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/get_wars.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="7" column="108" selection-start-line="7" selection-start-column="108" selection-end-line="7" selection-end-column="108" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/GCM_testSendGlobalNotification.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.34735578">
           <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GCM_sendGlobalNotification.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.66609883">
-          <caret line="23" column="2" selection-start-line="23" selection-start-column="2" selection-end-line="23" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/save_war.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/save_player.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.15269461">
-          <caret line="16" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -848,60 +624,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/get_players.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ManageWars.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.5">
-          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ManageOurAttack.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="2.6153846">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1436697773206" expanded="true" signature="2521:2882" placeholder="SELECT CONCA..Player..." />
-            <marker date="1436697773206" expanded="true" signature="3505:3665" placeholder="SELECT CONCA..TheirParticipant..." />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/TheirContestantsSetup.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-9.153846">
-          <caret line="18" column="4" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="4" />
-          <folding>
-            <marker date="1436697773193" expanded="true" signature="620:704" placeholder="SELECT WarID..War..." />
-          </folding>
+          <caret line="17" column="4" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="4" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ManageTheirAttack.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-10.269231">
-          <caret line="19" column="4" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="4" />
-          <folding>
-            <marker date="1436697773266" expanded="true" signature="2469:2629" placeholder="SELECT CONCA..TheirParticipant..." />
-            <marker date="1436697773266" expanded="true" signature="3273:3634" placeholder="SELECT CONCA..Player..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/menu.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.8846154">
-          <caret line="21" column="57" selection-start-line="21" selection-start-column="57" selection-end-line="21" selection-end-column="57" />
-          <folding>
-            <element signature="e#6#28#0#PHP" expanded="true" />
-          </folding>
+          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -909,56 +649,222 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1436697773260" expanded="true" signature="1018:1138" placeholder="SELECT WarID..War..." />
-          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GCM_SendNotificationToNextAttacker.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.20298508">
+          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ManageWars.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.5384617">
+          <caret line="10" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/save_war.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ManagePlayers.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.5">
-          <caret line="13" column="32" selection-start-line="13" selection-start-column="32" selection-end-line="13" selection-end-column="32" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="17" column="21" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/get_players.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="9" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OurContestantsSetup.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="170" column="0" selection-start-line="170" selection-start-column="0" selection-end-line="170" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/menu.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="39" column="0" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="6" column="49" selection-start-line="6" selection-start-column="49" selection-end-line="6" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/get_OurPlayers.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/save_player.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/save_ourAttack.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/update_ourAttackForApp.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding>
+            <marker date="1436799226264" expanded="true" signature="-1:-1" placeholder="SELECT Their..TheirParticipant..." />
+            <marker date="1436799226264" expanded="true" signature="-1:-1" placeholder="SELECT COUNT..Attack..." />
+            <marker date="1436799226264" expanded="true" signature="-1:-1" placeholder="UPDATE Attac..." />
+            <marker date="1436799226264" expanded="true" signature="-1:-1" placeholder="SELECT TOP(1..OurParticipantID..." />
+            <marker date="1436799226264" expanded="true" signature="-1:-1" placeholder="SELECT TOP (..GameName..." />
+            <marker date="1436799226264" expanded="true" signature="-1:-1" placeholder="SELECT GameN..View_WarProgress..." />
+            <marker date="1436799226264" expanded="true" signature="-1:-1" placeholder="SELECT GameN..View_WarProgress..." />
+            <marker date="1436799226264" expanded="true" signature="-1:-1" placeholder="UPDATE OurPa..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/get_participantsForWar.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="8" column="26" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/get_participantsForWarFoApp.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="42" column="47" selection-start-line="42" selection-start-column="47" selection-end-line="42" selection-end-column="47" />
+          <folding>
+            <marker date="1436785033400" expanded="true" signature="-1:-1" placeholder="UPDATE Visit..." />
+            <marker date="1436785033400" expanded="true" signature="-1:-1" placeholder="SELECT dbo.P..Player..." />
+            <marker date="1436785033400" expanded="true" signature="-1:-1" placeholder="SELECT [dbo]..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/getActiveWars.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding>
+            <marker date="1436783807807" expanded="true" signature="-1:-1" placeholder="SELECT CONVE..War..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BaseClasses/Settings.inc.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="18" column="36" selection-start-line="18" selection-start-column="36" selection-end-line="18" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/get_wars.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <folding>
+            <marker date="1436783830776" expanded="true" signature="-1:-1" placeholder="SELECT WarID..War..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/unlockLockedAttack.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="14" column="24" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GCM_sendGlobalNotification.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="21" column="15" selection-start-line="21" selection-start-column="15" selection-end-line="21" selection-end-column="15" />
+          <folding>
+            <marker date="1437501861222" expanded="true" signature="-1:-1" placeholder="SELECT gcm_r..gcm_users..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BaseClasses/GCM_Functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="88" column="13" selection-start-line="88" selection-start-column="13" selection-end-line="88" selection-end-column="13" />
+          <folding>
+            <marker date="1436799223817" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
+            <marker date="1436799223817" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..gcm_users..." />
+            <marker date="1436799223817" expanded="true" signature="-1:-1" placeholder="SELECT TOP(1..gcm_users..." />
+            <marker date="1436799223817" expanded="true" signature="-1:-1" placeholder="SELECT TOP(1..gcm_users..." />
+            <marker date="1436799223817" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..gcm_users..." />
+            <marker date="1436799223817" expanded="true" signature="-1:-1" placeholder="SELECT count..gcm_users..." />
+            <marker date="1436799223817" expanded="true" signature="-1:-1" placeholder="SELECT Playe..Player..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/c13f7cda-53f9-4eb8-893d-01ae90f220d2/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/get_NextBestAttack.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-13.076923">
+          <caret line="20" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/InitializeWar.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.96088433">
+          <caret line="97" column="0" selection-start-line="97" selection-start-column="0" selection-end-line="97" selection-end-column="0" />
           <folding>
-            <marker date="1436697773250" expanded="true" signature="554:587" placeholder="DELETE FROM ..." />
-            <marker date="1436697773250" expanded="true" signature="817:875" placeholder="SELECT OurPa..OurParticipant..." />
-            <marker date="1436697773250" expanded="true" signature="1081:1260" placeholder="INSERT INTO ..." />
-            <marker date="1436697773250" expanded="true" signature="1507:1686" placeholder="INSERT INTO ..." />
-            <marker date="1436697773250" expanded="true" signature="1982:2044" placeholder="SELECT Their..TheirParticipant..." />
-            <marker date="1436697773250" expanded="true" signature="2250:2431" placeholder="INSERT INTO ..." />
-            <marker date="1436697773250" expanded="true" signature="2678:2859" placeholder="INSERT INTO ..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-19.615385">
-          <caret line="30" column="14" selection-start-line="30" selection-start-column="14" selection-end-line="30" selection-end-column="14" />
-          <folding>
-            <marker date="1436697674780" expanded="true" signature="556:597" placeholder="SELECT Passw..Clan..." />
-            <marker date="1436697674780" expanded="true" signature="556:604" placeholder="SELECT ClanI..Clan..." />
-            <marker date="1436697674780" expanded="true" signature="1356:1407" placeholder="SELECT ClanI..Clan..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/OurContestantsSetup.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.17525773">
-          <caret line="16" column="28" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
-          <folding>
-            <marker date="1436697773228" expanded="true" signature="539:545" placeholder="..." />
-            <marker date="1436697773228" expanded="true" signature="719:803" placeholder="SELECT WarID..War..." />
-            <marker date="1436697773228" expanded="true" signature="2998:3052" placeholder="SELECT Playe..Player..." />
+            <marker date="1437680943063" expanded="true" signature="550:583" placeholder="DELETE FROM ..." />
+            <marker date="1437680943063" expanded="true" signature="813:871" placeholder="SELECT OurPa..OurParticipant..." />
+            <marker date="1437680943063" expanded="true" signature="1101:1280" placeholder="INSERT INTO ..." />
+            <marker date="1437680943063" expanded="true" signature="1552:1731" placeholder="INSERT INTO ..." />
+            <marker date="1437680943063" expanded="true" signature="2027:2095" placeholder="SELECT Their..TheirParticipant..." />
+            <marker date="1437680943063" expanded="true" signature="2027:2123" placeholder="SELECT Their..TheirParticipant..." />
+            <marker date="1437680943063" expanded="true" signature="2315:2496" placeholder="INSERT INTO ..." />
+            <marker date="1437680943063" expanded="true" signature="2743:2924" placeholder="INSERT INTO ..." />
+            <marker date="1437680943063" expanded="true" signature="3868:3914" placeholder="UPDATE Their..." />
+            <marker date="1437680943063" expanded="true" signature="3868:3915" placeholder="UPDATE Their..." />
+            <marker date="1437680943063" expanded="true" signature="3868:3955" placeholder="UPDATE Their..." />
+            <marker date="1437680943063" expanded="true" signature="3868:3956" placeholder="UPDATE Their..." />
           </folding>
         </state>
       </provider>

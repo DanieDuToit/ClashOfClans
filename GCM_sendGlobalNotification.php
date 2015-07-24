@@ -19,7 +19,6 @@
         $registatoin_ids[$i++] = $record['gcm_regid'];
     }
     $msg    = array("data" => $message);
-    $result = send_push_notification($registatoin_ids, $msg);
-    $db->Free($result);
+    send_push_notification($registatoin_ids, $msg);
     $db->close();
 ?>
