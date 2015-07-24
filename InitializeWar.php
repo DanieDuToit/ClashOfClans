@@ -53,7 +53,7 @@
     }
 
     // Insert the records for their opponents
-    $sql = "SELECT TheirParticipantID, Rank FROM TheirParticipant WHERE WarID = $selectedWarID ORDER BY Rank";
+    $sql = "SELECT TheirParticipantID, Rank FROM TheirParticipant WHERE WarID = $selectedWarID ORDER BY WarID, Rank";
     $records = $db->dbQuery($sql);
     while ($record = sqlsrv_fetch_array($records, SQLSRV_FETCH_BOTH)) {
         // Insert both attack records for each of our contestants
