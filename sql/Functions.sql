@@ -5,7 +5,7 @@ SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
 GO
-CREATE FUNCTION [dbo].[CompletedFirstAttack]
+ALTER FUNCTION [dbo].[CompletedFirstAttack]
   (
     @warID INT
     ,@ourRank INT
@@ -40,7 +40,7 @@ SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
 GO
-CREATE FUNCTION [dbo].[CompletedSecondAttack]
+ALTER FUNCTION [dbo].[CompletedSecondAttack]
   (
     @warID INT
     ,@opponent INT
@@ -77,7 +77,7 @@ SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
 GO
-CREATE FUNCTION [dbo].[GetAvailableNeighbour]
+ALTER FUNCTION [dbo].[GetAvailableNeighbour]
   (
     @WarID INT
     ,@OwnRank INT
@@ -137,7 +137,7 @@ SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
 GO
-CREATE FUNCTION [dbo].[GetClosestAvailabledAttackOpponent]
+ALTER FUNCTION [dbo].[GetClosestAvailabledAttackOpponent]
   (
     @warID int,
     @ownRank int,
@@ -214,7 +214,7 @@ GO
 -- Create date: <Create Date, ,>
 -- Description:	<Description, ,>
 -- =============================================
-CREATE FUNCTION [dbo].[GetClosestFirstAttackOpponent]
+ALTER FUNCTION [dbo].[GetClosestFirstAttackOpponent]
   (
     @warID int,
     @ownRank int,
@@ -267,7 +267,7 @@ SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
 GO
-CREATE FUNCTION [dbo].[GetClosestSecondAttackOpponent]
+ALTER FUNCTION [dbo].[GetClosestSecondAttackOpponent]
   (
     @warID int,
     @ownRank int,
@@ -337,7 +337,7 @@ SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
 GO
-CREATE FUNCTION [dbo].[GetDirectOppositeOpponentByExperience]
+ALTER FUNCTION [dbo].[GetDirectOppositeOpponentByExperience]
   (
     @WarID INT
     ,@OwnRank INT
@@ -382,7 +382,7 @@ SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
 GO
-CREATE FUNCTION [dbo].[GetEqualOrNextHighest]
+ALTER FUNCTION [dbo].[GetEqualOrNextHighest]
   (
     @warID int,
     @opponent int,
@@ -417,7 +417,7 @@ SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
 GO
-CREATE FUNCTION [dbo].[GetEqualOrNextLowest]
+ALTER FUNCTION [dbo].[GetEqualOrNextLowest]
   (
     @warID int,
     @opponent int,
@@ -453,7 +453,7 @@ SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
 GO
-CREATE FUNCTION [dbo].[GetMaxStars]
+ALTER FUNCTION [dbo].[GetMaxStars]
   (
     @WarID int,
     @opponent int,
@@ -483,7 +483,7 @@ SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
 GO
-CREATE FUNCTION [dbo].[GetNextHighest]
+ALTER FUNCTION [dbo].[GetNextHighest]
   (
     @WarID int,
     @ourRank int,
@@ -536,7 +536,7 @@ SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
 GO
-CREATE FUNCTION [dbo].[GetNextHighestOrEqual]
+ALTER FUNCTION [dbo].[GetNextHighestOrEqual]
   (
     @warID int,
     @opponent int,
@@ -578,7 +578,7 @@ SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
 GO
-CREATE FUNCTION [dbo].[GetNextLowest]
+ALTER FUNCTION [dbo].[GetNextLowest]
   (
     @WarID int,
     @ourRank int,
@@ -624,7 +624,7 @@ SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
 GO
-CREATE FUNCTION [dbo].[GetNextLowestOrEqual]
+ALTER FUNCTION [dbo].[GetNextLowestOrEqual]
   (
     @warID int,
     @opponent int,
@@ -666,7 +666,7 @@ SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
 GO
-CREATE FUNCTION [dbo].[GetNumberOfAttacks]
+ALTER FUNCTION [dbo].[GetNumberOfAttacks]
   (
     @warID INT
     ,@ownRank INT
@@ -694,7 +694,7 @@ SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
 GO
-CREATE FUNCTION [dbo].[GetNumberOfParticipants]
+ALTER FUNCTION [dbo].[GetNumberOfParticipants]
   (
     @WarID INT
   )
@@ -718,7 +718,7 @@ SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
 GO
-CREATE FUNCTION [dbo].[GetSecondAttacksLeftBelowRank]
+ALTER FUNCTION [dbo].[GetSecondAttacksLeftBelowRank]
   (
     @warID int,
     @ownRank int,
@@ -744,7 +744,7 @@ SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
 GO
-CREATE FUNCTION [dbo].[GetStarsTakenFromOpponent]
+ALTER FUNCTION [dbo].[GetStarsTakenFromOpponent]
   (
     @warID int,
     @theirRank int,
@@ -770,7 +770,7 @@ SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
 GO
-CREATE FUNCTION [dbo].[HasTheirRankAlreadyBeenAttackedByOurRank]
+ALTER FUNCTION [dbo].[HasTheirRankAlreadyBeenAttackedByOurRank]
   (
     @warID INT,
     @rankToCheck INT,
@@ -799,7 +799,7 @@ SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
 GO
-CREATE FUNCTION [dbo].[IsNeighbourAvailable]
+ALTER FUNCTION [dbo].[IsNeighbourAvailable]
   (
     @WarID INT
     ,@OwnRank INT
@@ -859,7 +859,7 @@ SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
 GO
-CREATE FUNCTION [dbo].[IsNexLowerNeighbourAvailable]
+ALTER FUNCTION [dbo].[IsNexLowerNeighbourAvailable]
   (
     @WarID INT
     ,@OwnRank INT
@@ -904,7 +904,7 @@ SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
 GO
-CREATE FUNCTION [dbo].[IsNextHigherNeighbourAvailable]
+ALTER FUNCTION [dbo].[IsNextHigherNeighbourAvailable]
   (
     @WarID INT
     ,@OwnRank INT
@@ -944,7 +944,7 @@ SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
 GO
-CREATE FUNCTION [dbo].[OwnDirectOpponentAttacked]
+ALTER FUNCTION [dbo].[OwnDirectOpponentAttacked]
   (
     @warID int,
     @ownRank int,
@@ -991,7 +991,7 @@ GO
 -- Create date: <Create Date, ,>
 -- Description:	<Description, ,>
 -- =============================================
-CREATE FUNCTION [dbo].[PlayersNextBestAttack]
+ALTER FUNCTION [dbo].[PlayersNextBestAttack]
   (
     @warID INT
     ,@ownRank INT
@@ -1086,7 +1086,7 @@ SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
 GO
-CREATE FUNCTION [dbo].[WasTheirRankAttacked]
+ALTER FUNCTION [dbo].[WasTheirRankAttacked]
   (
     @WarID INT
     ,@TheirRank INT
@@ -1119,7 +1119,7 @@ SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
 GO
-CREATE FUNCTION [dbo].[WasTheirRankAttackedByOurRank]
+ALTER FUNCTION [dbo].[WasTheirRankAttackedByOurRank]
   (
     @WarID INT
     ,@OwnRank INT

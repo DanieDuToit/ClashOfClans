@@ -1,19 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="DataSourceManagerImpl" format="xml" hash="62518811">
-    <data-source source="LOCAL" name="SQL Server - @DANIE-TOSH" uuid="c13f7cda-53f9-4eb8-893d-01ae90f220d2">
+  <component name="DataSourceManagerImpl" format="xml" hash="793308613">
+    <data-source source="LOCAL" name="SQL Server - COC@localhost" uuid="1793b49e-ffd9-4205-85d6-733d20d58544">
       <driver-ref>sqlserver.ms</driver-ref>
       <auto-commit>false</auto-commit>
       <jdbc-driver>com.microsoft.sqlserver.jdbc.SQLServerDriver</jdbc-driver>
-      <jdbc-url>jdbc:sqlserver://DANIE-TOSH:1433</jdbc-url>
+      <jdbc-url>jdbc:sqlserver://localhost:1433;databaseName=COC</jdbc-url>
       <driver-properties>
-        <property name="serverName" value="DANIE-TOSH" />
         <property name="databaseName" value="COC" />
-        <property name="trustServerCertificate" value="true" />
-        <property name="integratedSecurity" value="true" />
-        <property name="workstationID" value="DANIE-TOSH" />
-        <property name="username" value="sa" />
-        <property name="password" value="M1ll3nn1um" />
       </driver-properties>
       <libraries />
     </data-source>

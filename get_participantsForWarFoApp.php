@@ -35,7 +35,7 @@
         dbo.Player LEFT OUTER JOIN
         dbo.OurParticipant ON dbo.Player.PlayerID = dbo.OurParticipant.PlayerID
       WHERE
-        // TODO Change value of RankByExperience ('0')
+        --TODO Change value of RankByExperience ('0')
         (dbo.Player.Active = 1 AND WarID = $selectedWarID) AND ((SELECT [dbo].[GetNumberOfAttacks]($selectedWarID, Rank, 0)) < 2) ORDER BY Rank
     ";
     $result = $db->dbQuery($sql);

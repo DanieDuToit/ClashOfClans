@@ -12,15 +12,15 @@
     $sql     = "
         SELECT atk.AttackID, atk.OurAttack, atk.FirstAttack, atk.OurParticipantID,
             atk.TheirParticipantID, atk.StarsTaken, dbo.Player.GameName,
-            dbo.TheirParticipant.Rank,
-            CONCAT(dbo.Player.GameName, ' (#', part.Rank, ')') As OurParticipant,
-            CONCAT('Rank (#',  dbo.TheirParticipant.Rank, ')') As TheirParticipant
+            tp.Rank, op.Rank,
+            CONCAT(dbo.Player.GameName, ' (#', op.Rank, ')') As OurParticipant,
+            CONCAT('Rank (#',  tp.Rank, ')') As TheirParticipant
         FROM dbo.Attack AS atk INNER JOIN
-            dbo.OurParticipant AS part ON atk.OurParticipantID = part.OurParticipantID INNER JOIN
-            dbo.Player ON part.PlayerID = dbo.Player.PlayerID LEFT OUTER JOIN
-            dbo.TheirParticipant ON atk.TheirParticipantID = dbo.TheirParticipant.TheirParticipantID
+            dbo.OurParticipant AS op ON atk.OurParticipantID = op.OurParticipantID INNER JOIN
+            dbo.Player ON op.PlayerID = dbo.Player.PlayerID LEFT OUTER JOIN
+            dbo.TheirParticipant AS tp ON atk.TheirParticipantID = tp.TheirParticipantID
         WHERE (atk.OurAttack = 1) AND (atk.WarID = $selectedWarID)
-        ORDER BY atk.TimeOfAttack DESC
+        ORDER BY op.Rank, atk.FirstAttack DESC
     ";
     $records = $dbBaseClass->dbQuery($sql);
     while ($record = sqlsrv_fetch_array($records, SQLSRV_FETCH_BOTH)) {

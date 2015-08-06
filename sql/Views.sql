@@ -5,7 +5,7 @@ SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
 GO
-CREATE VIEW [dbo].[View_AttacksStats]
+ALTER VIEW [dbo].[View_AttacksStats]
 AS
   SELECT
     dbo.OurParticipant.Rank AS OurRank, dbo.TheirParticipant.Rank AS TheirRank, dbo.TheirParticipant.RankByExperience,
@@ -25,7 +25,7 @@ GO
 SET QUOTED_IDENTIFIER ON
 GO
 /* Our Attacks*/
-CREATE VIEW [dbo].[View_AttacksStatsResults]
+ALTER VIEW [dbo].[View_AttacksStatsResults]
 AS
   SELECT
     A.[Number of losts where our experience was less than or equals to theirs and the ranks was the same],
@@ -85,7 +85,7 @@ SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
 GO
-CREATE VIEW [dbo].[View_OurAttackedOpponents]
+ALTER VIEW [dbo].[View_OurAttackedOpponents]
 AS
   SELECT
     dbo.Attack.WarID, dbo.OurParticipant.Rank AS OurRank, dbo.TheirParticipant.Rank AS TheirRank,
@@ -104,7 +104,7 @@ SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
 GO
-CREATE VIEW [dbo].[View_OurStatsVSTheirStats]
+ALTER VIEW [dbo].[View_OurStatsVSTheirStats]
 AS
   SELECT DISTINCT
     TOP (100) PERCENT
@@ -126,7 +126,7 @@ SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
 GO
-CREATE VIEW [dbo].[View_StarsTaken]
+ALTER VIEW [dbo].[View_StarsTaken]
 AS
   SELECT
     dbo.TheirParticipant.WarID, dbo.OurParticipant.Rank AS OurRank, dbo.TheirParticipant.Rank AS TheirRank,
@@ -144,7 +144,7 @@ SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
 GO
-CREATE VIEW [dbo].[View_StarsToBeWin]
+ALTER VIEW [dbo].[View_StarsToBeWin]
 AS
   SELECT TOP (100) PERCENT
     dbo.Attack.WarID, 3 - MAX(ISNULL(dbo.Attack.StarsTaken, 0)) AS StarsToBeWin, dbo.TheirParticipant.Rank,
@@ -160,7 +160,7 @@ SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
 GO
-CREATE VIEW [dbo].[View_WarProgress]
+ALTER VIEW [dbo].[View_WarProgress]
 AS
   SELECT TOP (100) PERCENT
     dbo.Player.GameName, dbo.Attack.FirstAttack, dbo.Attack.StarsTaken, dbo.OurParticipant.Rank AS OurRank,
