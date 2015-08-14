@@ -1,12 +1,10 @@
 <?php
-    session_start();
-
+    include_once("menu.php");
     if (!isset($_SESSION["selectedClanID"])) {
         header("Location: Index.php?err=You must sign in first.");
         die();
     }
     $clanID = $_SESSION["selectedClanID"];
-    include_once("menu.php");
 ?>
 
 <!DOCTYPE html>

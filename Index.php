@@ -2,7 +2,6 @@
 <title>Clash Of Clans Admin</title>
 </html>
 <?php
-    session_start();
     include_once("menu.php");
     include_once("BaseClasses/BaseDB.class.php");
     include_once("BaseClasses/Database.class.php");
@@ -17,12 +16,13 @@
         $clanID = $_REQUEST['selectedClanID'];
         // Check the given password
         $dbBaseClass = new BaseDB();
-        $sql = "SELECT Password FROM Clan WHERE ClanID = $clanID";
+        $sql = "SELECT Password, ClanName FROM Clan WHERE ClanID = $clanID";
         $records = $dbBaseClass->dbQuery($sql);
         $record = sqlsrv_fetch_array($records, SQLSRV_FETCH_BOTH);
         if ($record['Password'] === $pwd) {
             $pwdMatch = true;
             $_SESSION["selectedClanID"] = $clanID;
+            $_SESSION["ClanName"] = $record['ClanName'];
             header("Location: menu.php");
             die();
         } else {

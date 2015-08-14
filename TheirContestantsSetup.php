@@ -1,12 +1,11 @@
 <?php
-    session_start();
+    include_once("menu.php");
 
     if (!isset($_SESSION["selectedClanID"])) {
         header("Location: Index.php?err=You must sign in first.");
         die();
     }
 
-    include_once("menu.php");
     include_once("BaseClasses/BaseDB.class.php");
     include_once("BaseClasses/Database.class.php");
 
@@ -33,16 +32,16 @@
 
 
 <p>Click the buttons on datagrid toolbar to do crud actions.</p>
-<table id="dg" title="Our Contestants Setup" class="easyui-datagrid" style="width:700px;height:450px"
+<table id="dg" title="Our Contestants Setup" class="easyui-datagrid" style="width:400px;height:450px"
        url="get_TheirContestants.php?selectedWarID=<?php $selectedWarID ?>"
        toolbar="#toolbar" pagination="true"
        rownumbers="false" fitColumns="true" singleSelect="true">
     <thead>
     <tr>
-        <th field="experience" width="40">Experience</th>
-        <th field="rank" width="40">Rank</th>
-        <th field="townhalllevel" width="40">T/H Level</th>
-        <th field="warid" width="40">War ID</th>
+        <input hidden="hidden" id="warid">
+        <th field="experience" width="20">Experience</th>
+        <th field="rank" width="20">Rank</th>
+        <th field="townhalllevel" width="20">T/H Level</th>
     </tr>
     </thead>
 </table>

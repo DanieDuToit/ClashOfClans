@@ -16,7 +16,7 @@
         static $dbPass = "M1ll3nn1um";
         static $conn = null;
         // At work
-        static $Server = "DANIE-HP";
+        static $Server = "DANIE-TOSH";
 
         // At home
         //			static $Server = "DANIE-HP";

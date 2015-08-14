@@ -8,7 +8,7 @@
 
     $i       = 0;
     $dbBaseClass = new BaseDB();
-    $sql     = "SELECT WarID, Date, NumberOfParticipants, WarsWeWon, WarsTheyWon, Active FROM War WHERE ClanId = $clanID ORDER BY WarID";
+    $sql     = "SELECT WarID, Date, NumberOfParticipants, WarsWeWon, WarsTheyWon, Active FROM War WHERE ClanId = $clanID ORDER BY WarID DESC";
     $records = $dbBaseClass->dbQuery($sql);
     while ($record = sqlsrv_fetch_array($records, SQLSRV_FETCH_BOTH)) {
         $data[$i++] = array(

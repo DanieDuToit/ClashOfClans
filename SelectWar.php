@@ -1,5 +1,5 @@
 <?php
-    session_start();
+    include_once("menu.php");
 
     if (!isset($_SESSION["selectedClanID"])) {
         header("Location: Index.php?err=You must sign in first.");
@@ -8,7 +8,6 @@
 
     $selectedClanID = $_SESSION["selectedClanID"];
 
-    include_once("menu.php");
     include_once("BaseClasses/BaseDB.class.php");
     include_once("BaseClasses/Database.class.php");
 
@@ -19,12 +18,24 @@
     }
 ?>
     <html>
-    <title>War Selection page</title>
-    </html>
-
-    <h2>Select a war for the participants to participate in
+    <title>War Selection</title>
+    <h2>
+        <br>
+    <?php
+        if ($contestant == 0) {
+            echo 'Select The War For Our Contestant Setup';
+        } else if ($contestant == 1) {
+            echo 'Select The War For Their Contestant Setup';
+        } else if ($contestant == 2) {
+            echo 'Select The War For Managing Our Attacks';
+        } else if ($contestant == 3) {
+            echo 'Select The War For Managing Their Attacks';
+        } else if ($reset = 1) {
+            echo 'Select The War That you want to Reset Or Initialize';
+        }
+    ?>
     </h2>
-    <p>&nbsp;</p>
+    </html>
     <form id="form1" name="form1" method="post">
         <label for="select">Select:</label>
         <select name="selectedWarID" id="selectedWarID">
