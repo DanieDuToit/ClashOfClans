@@ -1,27 +1,24 @@
 <?php
-    session_start();
-
+    include_once("menu.php");
     if (!isset($_SESSION["selectedClanID"])) {
         header("Location: Index.php?err=You must sign in first.");
         die();
     }
     $clanID = $_SESSION["selectedClanID"];
-    include_once("menu.php");
+    $clanName = $_SESSION["ClanName"];
 ?>
 <html>
 <title>Wars admin page</title>
 </html>
 <body>
-<h2>Dragonheart's C.O.C. Wars admin page</h2>
-
 <p>Click the buttons on datagrid toolbar to do crud actions.</p>
-<table id="dg" title="Dragonheart COC Wars" class="easyui-datagrid" style="width:700px;height:450px"
+<table id="dg" title="Dragonheart COC Wars" class="easyui-datagrid" style="width:400px;height:450px"
        url="get_wars.php?"
        toolbar="#toolbar" pagination="true"
        rownumbers="false" fitColumns="true" singleSelect="true">
     <thead>
     <tr>
-        <th field="warid" width="30">ID</th>
+        <input id="warid" hidden="hidden">
         <th field="wardate" width="150">War Date</th>
         <th field="numberofparticipants" width="150">Number of participants</th>
         <th field="active" width="50">Active</th>
@@ -45,24 +42,24 @@
             <input name="warid" type="hidden">
         </div>
         <div class="fitem">
-            <label>War Date:</label>
-            <input type="date" name="wardate" class="easyui-textbox" required="true">
+            <label for="wardate">War Date:</label>
+            <input type="date" id="wardate" name="wardate" class="easyui-textbox" required="true">
         </div>
         <div class="fitem">
-            <label width="200px">Number_of_participants:</label>
-            <input name="numberofparticipants" class="easyui-textbox" required="true">
+            <label for="numberofparticipants">Number_of_participants:</label>
+            <input id="numberofparticipants" name="numberofparticipants" class="easyui-textbox" required="true">
         </div>
         <div class="fitem">
-            <label>Wars we won:</label>
-            <input name="warswewon" class="easyui-textbox" required="true">
+            <label for="warswewon">Wars we won:</label>
+            <input id="warswewon" name="warswewon" class="easyui-textbox" required="true">
         </div>
         <div class="fitem">
-            <label>Wars they won:</label>
-            <input name="warstheywon" class="easyui-textbox" required="true">
+            <label for="warstheywon">Wars they won:</label>
+            <input name="warstheywon" id="warstheywon" class="easyui-textbox" required="true">
         </div>
         <div class="fitem">
-            <label>Active:</label>
-            <select name="active">
+            <label for="active">Active:</label>
+            <select name="active" id="active">
                 <option value="1">Yes</option>
                 <option value="0">No</option>
             </select>

@@ -1,12 +1,11 @@
 <?php
-    session_start();
+    include_once("menu.php");
 
     if (!isset($_SESSION["selectedClanID"])) {
         header("Location: Index.php?err=You must sign in first.");
         die();
     }
 
-    include_once("menu.php");
     include_once("BaseClasses/BaseDB.class.php");
     include_once("BaseClasses/Database.class.php");
 
@@ -19,19 +18,19 @@
 <title>Manage Our Attack</title>
 </html>
 <body>
-<h2>Dragonheart's C.O.C. Their Attack admin</h2>
+<h2>Opponent's Attacks admin</h2>
 
 <p>Click the buttons on datagrid toolbar to do crud actions.</p>
-<table id="dg" title="Dragonheart COC Our Attacks" class="easyui-datagrid" style="width:700px;height:400px"
+<table id="dg" title="Their Attacks" class="easyui-datagrid" style="width:500px;height:400px"
        url="get_theirAttacks.php?"
        toolbar="#toolbar" pagination="true"
        rownumbers="false" fitColumns="true" singleSelect="true">
     <thead>
     <tr>
-        <th field="theirparticipant" width="50">Their Partcicpant ID</th>
-        <th field="ourparticipant" width="50">Our Partcicpant ID</th>
-        <th field="firstattack" width="15">First Attack</th>
-        <th field="starstaken" width="15">Stars Taken</th>
+        <th field="theirparticipant" width="100">Their Partcicpant</th>
+        <th field="ourparticipant" width="100">Our Partcicpant</th>
+        <th field="firstattack" width="50">First Attack</th>
+        <th field="starstaken" width="50">Stars Taken</th>
     </tr>
     </thead>
 </table>
@@ -91,16 +90,11 @@
                 ?>
             </select>
         </div>
-        <tr>
-            <th scope="row">
-                <div align="left">Stars Taken:</div>
-            </th>
-            <td><input name="starstaken" type="range" id="starstaken" form="fm" max="3" min="0" step="1" value="0"
-                       onchange="showVal(this.value)">
-                <input name="starCount" type="text" disabled id="starCount" size="5" maxlength="5" value="0">
-            </td>
-        </tr>
-        <tr>
+        <div class="fitem">
+            <label for="starstaken">Stars Taken:</label>
+            <input name="starstaken" id="starstaken" class="easyui-numberspinner" required="required"
+                   data-options="min:0,max:3,editable:true" style="width:40px;">
+        </div>
     </form>
 </div>
 <div id="dlg-buttons">
