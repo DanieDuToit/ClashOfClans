@@ -47,15 +47,18 @@
         </div>
         <div class="fitem">
             <label for="numberofparticipants">Number_of_participants:</label>
-            <input id="numberofparticipants" name="numberofparticipants" class="easyui-textbox" required="true">
+            <input name="numberofparticipants" id="numberofparticipants" class="easyui-numberspinner"
+                   style="width:60px;" required="required" data-options="min:10,max:50,editable:true">
         </div>
         <div class="fitem">
             <label for="warswewon">Wars we won:</label>
-            <input id="warswewon" name="warswewon" class="easyui-textbox" required="true">
+            <input name="warswewon" id="warswewon" class="easyui-numberspinner" style="width:60px;" required="required"
+                   data-options="editable:true">
         </div>
         <div class="fitem">
             <label for="warstheywon">Wars they won:</label>
-            <input name="warstheywon" id="warstheywon" class="easyui-textbox" required="true">
+            <input name="warstheywon" id="warstheywon" class="easyui-numberspinner" style="width:60px;"
+                   required="required" data-options="editable:true">
         </div>
         <div class="fitem">
             <label for="active">Active:</label>

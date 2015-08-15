@@ -12,15 +12,15 @@
 <body>
 <h2>Player admin page</h2>
 <p>Click the buttons on datagrid toolbar to do crud actions.</p>
-<table id="dg" title="Dragonheart COC Players" class="easyui-datagrid" style="width:700px;height:450px"
+<table id="dg" title="Dragonheart COC Players" class="easyui-datagrid" style="width:500px;height:450px"
        url="get_players.php?activeonly=0&clanId=<?php echo $clanID; ?>"
        toolbar="#toolbar" pagination="true"
        rownumbers="false" fitColumns="true" singleSelect="true">
     <thead>
     <tr>
-        <th field="playerid" width="30">ID</th>
-        <th field="gamename" width="150">Game Name</th>
-        <th field="realname" width="150">Real Name</th>
+        <!--        <th field="playerid" width="30">ID</th>-->
+        <th field="gamename" width="200">Game Name</th>
+        <th field="realname" width="200">Real Name</th>
         <th field="active" width="50">Active</th>
     </tr>
     </thead>
@@ -33,7 +33,7 @@
     <a href="javascript:void(0)" class="easyui-linkbutton" iconCls="icon-remove" plain="true" onclick="destroyPlayer()">Remove
         Player</a>
 </div>
-<div id="dlg" class="easyui-dialog" style="width:400px;height:350px;padding:10px 20px"
+<div id="dlg" class="easyui-dialog" style="width:450px;height:300px;padding:10px 20px"
      closed="true" buttons="#dlg-buttons">
     <div class="ftitle">Player Information</div>
     <form id="fm" method="post" novalidate>

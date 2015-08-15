@@ -71,12 +71,14 @@
             </select>
         </div>
         <div class="fitem">
-            <label>Experience:</label>
-            <input name="experience" class="easyui-textbox" required="true">
+            <label for="experience">Experience:</label>
+            <input name="experience" id="experience" class="easyui-numberspinner" style="width:60px;"
+                   required="required" data-options="editable:true">
         </div>
         <div class="fitem">
-            <label>Townhall Level</label>
-            <input name="townhalllevel" class="easyui-textbox" required="true">
+            <label for=townhalllevel>Townhall Level</label>
+            <input name="townhalllevel" id="townhalllevel" class="easyui-numberspinner" style="width:60px;"
+                   required="required" data-options="min:1,max:10,editable:true">
         </div>
 </div>
 </form>
